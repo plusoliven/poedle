@@ -126,7 +126,7 @@ function App() {
       setGameResult('won');
       setRevealItem({ name: true, mods: true, flavorText: true })
 
-      setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item quiz' : 'Daily divination card quiz'}\n${'🟥 '.repeat(guesses)}🟩`)
+      setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item' : 'Daily divination card'}\n${'🟥 '.repeat(guesses)}🟩\n${domain}`)
 
       return;
     }
@@ -140,8 +140,8 @@ function App() {
       setGameResult('lost');
       setRevealItem({ name: true, mods: true, flavorText: true })
 
-      if (isEndlessQuiz) setShareText(`Poedle endless ${endlessQuizType} quiz\n${correctGuesses} correct guesses!`)
-      else setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item quiz' : 'Daily divination card quiz'}\n${'🟥 '.repeat(guesses + 1)}`)
+      if (isEndlessQuiz) setShareText(`Poedle endless ${endlessQuizType} quiz\n${correctGuesses} correct guesses!\n${domain}`)
+      else setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item' : 'Daily divination card'}\n${'🟥 '.repeat(guesses + 1)}\n${domain}`)
       return;
     }
 
