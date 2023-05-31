@@ -2,23 +2,14 @@ import React, { useState } from 'react';
 import './App.css';
 
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
   Button,
   Container,
-  Divider,
   Grid,
-  Icon,
   TextField,
   Typography,
   Autocomplete,
-  Tooltip,
-  Modal
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import ItemBox from './ItemBox';
@@ -187,6 +178,8 @@ function App() {
             )
             .map((item) => item.name)
         );
+        break;
+      default:
         break;
     }
   }
@@ -415,14 +408,14 @@ function App() {
                       InputProps={{
                         readOnly: true,
                         style: {
-                          color: '#FFFFFF',  // Changes the text color
+                          color: '#FFFFFF',
                         },
                       }}
                       sx={{
                         marginRight: 2,
                       }}
                     />
-                    <Button variant="contained" onClick={() => navigator.clipboard.writeText(shareText)}>Share results</Button>
+                    <Button variant='contained' onClick={() => navigator.clipboard.writeText(shareText)}>Share results</Button>
                   </Grid>
 
                 </Grid>

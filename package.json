@@ -1,7 +1,7 @@
 {
   "name": "poeq",
   "version": "0.1.0",
-  "homepage": "https://github.com/plusoliven/poedle",
+  "homepage": "https://plusoliven.github.io/poedle",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",

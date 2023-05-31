@@ -5807,6 +5807,7 @@ export const divCards = [
         ]
     }
 ];
+
 export const uniques = [
     {
         "name": "The Devouring Diadem",
@@ -5898,24 +5899,6 @@ export const uniques = [
             },
             {
                 "modStr": "Monsters deal 35% extra Physical Damage as Lightning"
-            }
-        ]
-    },
-    {
-        "name": "Replica Fencoil",
-        "imgPath": "images\\staffUnique\\Fencoil_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+18% Chance to Block Attack Damage while wielding a StaffSocketed Gems are Supported by Level 1 Multiple Totems"
-            },
-            {
-                "modStr": "(40-50)% increased Global Damage"
-            },
-            {
-                "modStr": "(10-20)% increased maximum Life"
-            },
-            {
-                "modStr": "(10-20)% increased maximum Mana"
             }
         ]
     },
@@ -6036,27 +6019,6 @@ export const uniques = [
             },
             {
                 "modStr": "Drops Shocked Ground while moving, lasting 2 seconds"
-            }
-        ]
-    },
-    {
-        "name": "Replica Emberwake",
-        "imgPath": "images\\ringUnique\\Emberwake_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30)% to Fire Resistance(30-40)% increased Fire Damage"
-            },
-            {
-                "modStr": "(5-10)% increased Cast Speed"
-            },
-            {
-                "modStr": "90% reduced Ignite Duration on Enemies"
-            },
-            {
-                "modStr": "10% chance to Ignite"
-            },
-            {
-                "modStr": "Ignites you inflict deal Damage (35-45)% faster"
             }
         ]
     },
@@ -6508,54 +6470,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Heartbreaker",
-        "imgPath": "images\\daggerUnique\\Heartbreaker_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Global Critical Strike Chance(60-70)% increased Spell Damage"
-            },
-            {
-                "modStr": "(40-80)% faster start of Energy Shield Recharge"
-            },
-            {
-                "modStr": "+(30-50) to maximum Life"
-            },
-            {
-                "modStr": "20% increased Impale Effect"
-            },
-            {
-                "modStr": "20% chance to Impale on Spell Hit"
-            }
-        ]
-    },
-    {
-        "name": "Replica Perfect Form",
-        "imgPath": "images\\bodyUnique\\The_Perfect_Form_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(10-15)% increased Dexterity"
-            },
-            {
-                "modStr": "(150-200)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+(70-100) to maximum Life"
-            },
-            {
-                "modStr": "-30% to Cold Resistance"
-            },
-            {
-                "modStr": "Flesh and Stone has no Reservation"
-            },
-            {
-                "modStr": "Evasion Rating is increased by Overcapped Cold Resistance"
-            },
-            {
-                "modStr": "Hollow Palm Technique"
-            }
-        ]
-    },
-    {
         "name": "Starforge",
         "imgPath": "images\\swordUnique\\Starforge_inventory_icon.png",
         "mods": [
@@ -6612,27 +6526,6 @@ export const uniques = [
             },
             {
                 "modStr": "+2 to maximum number of Spectres"
-            }
-        ]
-    },
-    {
-        "name": "Replica Doedre's Damning",
-        "imgPath": "images\\ringUnique\\Doedres_Damning_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to maximum Mana+(5-20) to Intelligence"
-            },
-            {
-                "modStr": "+(5-20)% to all Elemental Resistances"
-            },
-            {
-                "modStr": "Gain (5-20) Mana per Enemy Killed"
-            },
-            {
-                "modStr": "You can apply one fewer Curse"
-            },
-            {
-                "modStr": "(15-25)% increased Effect of your Curses"
             }
         ]
     },
@@ -7000,33 +6893,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Voidwalker",
-        "imgPath": "images\\bootsUnique\\Voidwalker_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(30-50) to Dexterity"
-            },
-            {
-                "modStr": "(140-180)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "30% increased Movement Speed"
-            },
-            {
-                "modStr": "10% increased Damage taken while Phasing"
-            },
-            {
-                "modStr": "You have Phasing if you've Killed Recently"
-            },
-            {
-                "modStr": "Projectiles Chain +1 times while you have Phasing"
-            },
-            {
-                "modStr": "Celestial Footprints"
-            }
-        ]
-    },
-    {
         "name": "Dyadian Dawn",
         "imgPath": "images\\beltUnique\\Dyadian_Dawn_inventory_icon.png",
         "mods": [
@@ -7177,27 +7043,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Bated Breath",
-        "imgPath": "images\\beltUnique\\Bated_Breath_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(9-20) to maximum Energy Shield-(25-15) to Intelligence"
-            },
-            {
-                "modStr": "10% increased Damage"
-            },
-            {
-                "modStr": "50% increased Fishing Pool Consumption"
-            },
-            {
-                "modStr": "20% increased Fishing Range"
-            },
-            {
-                "modStr": "(20-30)% increased Rarity of Fish Caught"
-            }
-        ]
-    },
-    {
         "name": "Circle of Fear",
         "imgPath": "images\\ringUnique\\Circle_of_Fear_inventory_icon.png",
         "mods": [
@@ -7314,30 +7159,6 @@ export const uniques = [
             },
             {
                 "modStr": "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
-            }
-        ]
-    },
-    {
-        "name": "Replica Bitterdream",
-        "imgPath": "images\\sceptreUnique\\Replica_Bitterdream_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "22% increased Elemental DamageSocketed Gems are Supported by Level 1 Elemental Penetration"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 15 Immolate"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 15 Unbound Ailments"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 15 Ice Bite"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 15 Inspiration"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 15 Innervate"
             }
         ]
     },
@@ -7603,21 +7424,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Atziri's Foible",
-        "imgPath": "images\\amuletUnique\\Atziris_Foible_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Regenerate (1-2)% of Life per second+100 to maximum Life"
-            },
-            {
-                "modStr": "(20-25)% increased Life Regeneration rate"
-            },
-            {
-                "modStr": "Items and Gems have 25% reduced Attribute Requirements"
-            }
-        ]
-    },
-    {
         "name": "Mistwall",
         "imgPath": "images\\shieldUnique\\Mistwall_inventory_icon.png",
         "mods": [
@@ -7686,21 +7492,6 @@ export const uniques = [
             },
             {
                 "modStr": "Your Hits can only Kill Frozen Enemies"
-            }
-        ]
-    },
-    {
-        "name": "Replica Reckless Defence",
-        "imgPath": "images\\jewelDropUnique\\Reckless_Defence_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(2-4)% Chance to Block Spell Damage"
-            },
-            {
-                "modStr": "+(2-4)% Chance to Block Attack Damage"
-            },
-            {
-                "modStr": "+10% chance to be Frozen, Shocked and Ignited"
             }
         ]
     },
@@ -7818,30 +7609,6 @@ export const uniques = [
             },
             {
                 "modStr": "No Chance to Block"
-            }
-        ]
-    },
-    {
-        "name": "Replica Volkuur's Guidance",
-        "imgPath": "images\\glovesUnique\\Volkuurs_Guidance_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Adds (17-23) to (29-31) Chaos Damage"
-            },
-            {
-                "modStr": "+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "+(29-41)% to Chaos Resistance"
-            },
-            {
-                "modStr": "Your Chaos Damage can Ignite"
-            },
-            {
-                "modStr": "Chaos Skills have 20% chance to Ignite"
-            },
-            {
-                "modStr": "50% less Ignite Duration"
             }
         ]
     },
@@ -8242,30 +8009,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Wings of Entropy",
-        "imgPath": "images\\axeUnique\\Wings_of_Entropy_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(7-10)% Chance to Block Spell Damage"
-            },
-            {
-                "modStr": "+(8-12)% Chance to Block Attack Damage while Dual Wielding"
-            },
-            {
-                "modStr": "(60-80)% increased Physical Damage"
-            },
-            {
-                "modStr": "Counts as Dual Wielding"
-            },
-            {
-                "modStr": "+(8-10)% to Off Hand Critical Strike Chance"
-            },
-            {
-                "modStr": "(50-70)% more Main Hand attack speed"
-            }
-        ]
-    },
-    {
         "name": "Meginord's Vise",
         "imgPath": "images\\glovesUnique\\Meginords_Vise_inventory_icon.png",
         "mods": [
@@ -8307,30 +8050,6 @@ export const uniques = [
             },
             {
                 "modStr": "Shocks you when you reach Maximum Power Charges"
-            }
-        ]
-    },
-    {
-        "name": "Replica Windripper",
-        "imgPath": "images\\bowUnique\\Windripper_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(20-24)% increased Elemental Damage with Attack SkillsAdds (48-60) to (72-90) Cold Damage"
-            },
-            {
-                "modStr": "Adds 1 to (120-150) Lightning Damage"
-            },
-            {
-                "modStr": "(10-15)% increased Attack Speed"
-            },
-            {
-                "modStr": "(30-40)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "Enemies Frozen by you take 20% increased Damage"
-            },
-            {
-                "modStr": "+(90-120) Energy Shield gained on Killing a Shocked Enemy"
             }
         ]
     },
@@ -9013,33 +8732,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Quill Rain",
-        "imgPath": "images\\bowUnique\\Replica_Quill_Rain_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Socketed Gems are Supported by Level 1 Arrow Nova"
-            },
-            {
-                "modStr": "+(10-20) to Dexterity"
-            },
-            {
-                "modStr": "100% increased Physical Damage"
-            },
-            {
-                "modStr": "(25-30)% increased Attack Speed"
-            },
-            {
-                "modStr": "Grants 2 Mana per Enemy Hit"
-            },
-            {
-                "modStr": "(50-100)% increased Projectile Speed"
-            },
-            {
-                "modStr": "+(25-50) to Accuracy Rating"
-            }
-        ]
-    },
-    {
         "name": "Hallowed Ground",
         "imgPath": "images\\mapsUnique\\Hallowed_Ground_inventory_icon.png",
         "mods": [
@@ -9216,33 +8908,6 @@ export const uniques = [
             },
             {
                 "modStr": "Hits with this Weapon gain (75-100)% of Physical Damage as Extra Cold or Lightning Damage"
-            }
-        ]
-    },
-    {
-        "name": "Replica Tempestuous Steel",
-        "imgPath": "images\\swordUnique\\The_Tempestuous_Steel_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "40% increased Global Accuracy RatingAdds (5-8) to (15-20) Physical Damage"
-            },
-            {
-                "modStr": "(8-14)% increased Attack Speed"
-            },
-            {
-                "modStr": "100% reduced Global Accuracy Rating"
-            },
-            {
-                "modStr": "+(60-100)% to Critical Strike Multiplier with One Handed Melee Weapons"
-            },
-            {
-                "modStr": "Attacks with this Weapon Penetrate 30% Elemental Resistances"
-            },
-            {
-                "modStr": "Gain 15% of Physical Attack Damage as Extra Fire Damage"
-            },
-            {
-                "modStr": "Gain 15% of Physical Attack Damage as Extra Lightning Damage"
             }
         ]
     },
@@ -9493,27 +9158,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Allelopathy",
-        "imgPath": "images\\glovesUnique\\Allelopathy_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Grants Level 22 Wintertide Brand Skill"
-            },
-            {
-                "modStr": "(100-120)% increased Energy Shield"
-            },
-            {
-                "modStr": "10% increased Area of Effect"
-            },
-            {
-                "modStr": "Immune to Chill"
-            },
-            {
-                "modStr": "Wintertide Brand has (20-30)% increased Chill Effect"
-            }
-        ]
-    },
-    {
         "name": "Circle of Guilt",
         "imgPath": "images\\ringUnique\\Circle_of_Guilt_inventory_icon.png",
         "mods": [
@@ -9525,27 +9169,6 @@ export const uniques = [
             },
             {
                 "modStr": "+(350-400) to Armour"
-            }
-        ]
-    },
-    {
-        "name": "Replica Karui Ward",
-        "imgPath": "images\\amuletUnique\\Karui_Ward_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to Dexterity+(20-30) to Intelligence"
-            },
-            {
-                "modStr": "+100 to Accuracy Rating"
-            },
-            {
-                "modStr": "10% increased Movement Speed"
-            },
-            {
-                "modStr": "30% increased Area of Effect"
-            },
-            {
-                "modStr": "30% increased Area Damage"
             }
         ]
     },
@@ -9609,18 +9232,6 @@ export const uniques = [
         "mods": [
             {
                 "modStr": "50% chance to gain an additional Vaal Soul per Enemy ShatteredCorrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Trypanon",
-        "imgPath": "images\\maceUnique\\Trypanon_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Stun Duration on Enemies-5000 to Accuracy Rating"
-            },
-            {
-                "modStr": "This Weapon's Critical Strike Chance is 100%"
             }
         ]
     },
@@ -9900,45 +9511,6 @@ export const uniques = [
             },
             {
                 "modStr": "Socketed Gems are supported by Level 10 Cast when StunnedCorrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Tulfall",
-        "imgPath": "images\\wandUnique\\Tulfall_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Adds (14-29) to (42-47) Cold Damage to Spells and Attacks(15-25)% increased Cast Speed"
-            },
-            {
-                "modStr": "Lose all Power Charges on reaching Maximum Power Charges"
-            },
-            {
-                "modStr": "Gain a Frenzy Charge on reaching Maximum Power Charges"
-            },
-            {
-                "modStr": "(15-20)% increased Cold Damage per Frenzy Charge"
-            },
-            {
-                "modStr": "Gain a Power Charge on Killing a Frozen Enemy"
-            },
-            {
-                "modStr": "Take 500 Cold Damage on reaching Maximum Power Charges"
-            }
-        ]
-    },
-    {
-        "name": "Replica Nebulis",
-        "imgPath": "images\\sceptreUnique\\Nebulis_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "40% increased Elemental Damage(15-20)% increased Cast Speed"
-            },
-            {
-                "modStr": "(15-20)% increased Cold Damage per 1% Missing Cold Resistance, up to a maximum of 300%"
-            },
-            {
-                "modStr": "(15-20)% increased Fire Damage per 1% Missing Fire Resistance, up to a maximum of 300%"
             }
         ]
     },
@@ -10282,27 +9854,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Lavianga's Spirit",
-        "imgPath": "images\\flaskUnique\\Laviangas_Spirit_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(30-50)% increased Amount Recovered"
-            },
-            {
-                "modStr": "50% reduced Recovery rate"
-            },
-            {
-                "modStr": "(5-15)% increased Attack Speed during Effect"
-            },
-            {
-                "modStr": "(5-15)% increased Cast Speed during Effect"
-            },
-            {
-                "modStr": "10% increased Mana Cost of Skills during Effect"
-            }
-        ]
-    },
-    {
         "name": "Vulconus",
         "imgPath": "images\\daggerUnique\\Vulconus_inventory_icon.png",
         "mods": [
@@ -10464,30 +10015,6 @@ export const uniques = [
             },
             {
                 "modStr": "Physical Damage per 10 Strength"
-            }
-        ]
-    },
-    {
-        "name": "Replica Restless Ward",
-        "imgPath": "images\\bodyUnique\\The_Restless_Ward_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-25) to maximum Mana(220-250)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "+(60-80) to maximum Life"
-            },
-            {
-                "modStr": "6% increased Movement Speed per Frenzy Charge"
-            },
-            {
-                "modStr": "-2 to Maximum Endurance Charges"
-            },
-            {
-                "modStr": "-2 to Maximum Frenzy Charges"
-            },
-            {
-                "modStr": "Regenerate (100-140) Life per second per Endurance Charge"
             }
         ]
     },
@@ -10863,30 +10390,6 @@ export const uniques = [
             },
             {
                 "modStr": "Critical Strikes do not inherently Freeze"
-            }
-        ]
-    },
-    {
-        "name": "Replica Victario's Charity",
-        "imgPath": "images\\shieldUnique\\Victarios_Charity_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+8% to all Elemental Resistances+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "+(20-30)% to Lightning Resistance"
-            },
-            {
-                "modStr": "+11% to Chaos Resistance"
-            },
-            {
-                "modStr": "10% increased effect of Non-Curse Auras from your Skills"
-            },
-            {
-                "modStr": "5% chance to grant an Endurance Charge to nearby Allies on Hit"
-            },
-            {
-                "modStr": "10% chance to grant a Frenzy Charge to nearby Allies on Kill"
             }
         ]
     },
@@ -12061,15 +11564,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Shroud of the Lightless",
-        "imgPath": "images\\bodyUnique\\Replica_Shroud_of_the_Lightless_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-25) to maximum ManaHas 6 Abyssal Sockets"
-            }
-        ]
-    },
-    {
         "name": "Singularity",
         "imgPath": "images\\sceptreUnique\\Singularity_inventory_icon.png",
         "mods": [
@@ -12228,30 +11722,6 @@ export const uniques = [
             },
             {
                 "modStr": "1% increased Spell Damage per 10 Intelligence"
-            }
-        ]
-    },
-    {
-        "name": "Replica Malachai's Artifice",
-        "imgPath": "images\\ringUnique\\Malachais_Artifice_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Has 1 SocketSocketed Gems have Secrets of Suffering"
-            },
-            {
-                "modStr": "-20% to all Elemental Resistances"
-            },
-            {
-                "modStr": "+(75-100)% to Fire Resistance when Socketed with a Red Gem"
-            },
-            {
-                "modStr": "+(75-100)% to Cold Resistance when Socketed with a Green Gem"
-            },
-            {
-                "modStr": "+(75-100)% to Lightning Resistance when Socketed with a Blue Gem"
-            },
-            {
-                "modStr": "All Sockets are White"
             }
         ]
     },
@@ -12454,27 +11924,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Leer Cast",
-        "imgPath": "images\\helmetUnique\\Leer_Cast_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to Dexterity"
-            },
-            {
-                "modStr": "60% reduced Mana Regeneration Rate"
-            },
-            {
-                "modStr": "+(60-100) to maximum Life"
-            },
-            {
-                "modStr": "+(60-100) to maximum Mana"
-            },
-            {
-                "modStr": "You and nearby Allies have 30% increased Mana Regeneration Rate"
-            }
-        ]
-    },
-    {
         "name": "Ngamahu's Flame",
         "imgPath": "images\\axeUnique\\Ngamahus_Flame_inventory_icon.png",
         "mods": [
@@ -12523,30 +11972,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Lioneye's Paws",
-        "imgPath": "images\\bootsUnique\\Lioneyes_Paws_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Trigger Level 5 Toxic Rain when you Attack with a Bow"
-            },
-            {
-                "modStr": "+(40-60) to Strength"
-            },
-            {
-                "modStr": "+(40-60) to Dexterity"
-            },
-            {
-                "modStr": "Adds 12 to 24 Chaos Damage to Attacks"
-            },
-            {
-                "modStr": "20% increased Movement Speed"
-            },
-            {
-                "modStr": "40% reduced Movement Speed when on Low Life"
-            }
-        ]
-    },
-    {
         "name": "Ashcaller",
         "imgPath": "images\\wandUnique\\Ashcaller_inventory_icon.png",
         "mods": [
@@ -12582,21 +12007,6 @@ export const uniques = [
             },
             {
                 "modStr": "Damage cannot be Reflected"
-            }
-        ]
-    },
-    {
-        "name": "Replica Twyzel",
-        "imgPath": "images\\wandUnique\\Twyzel_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(17-21)% increased Spell Damage(5-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "(20-40)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "Attacks fire an additional Projectile"
             }
         ]
     },
@@ -12817,27 +12227,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Prismweave",
-        "imgPath": "images\\beltUnique\\Prismweave_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(12-24)% increased Global Physical DamageAdds (14-16) to (30-32) Fire Damage to Spells"
-            },
-            {
-                "modStr": "Adds (10-12) to (24-28) Cold Damage to Spells"
-            },
-            {
-                "modStr": "Adds 1 to (60-68) Lightning Damage to Spells"
-            },
-            {
-                "modStr": "+(6-15)% to all Elemental Resistances"
-            },
-            {
-                "modStr": "30% increased Elemental Damage during any Flask Effect"
-            }
-        ]
-    },
-    {
         "name": "Dying Sun",
         "imgPath": "images\\flaskUnique\\Dying_Sun_inventory_icon.png",
         "mods": [
@@ -13005,30 +12394,6 @@ export const uniques = [
             },
             {
                 "modStr": "(150-200)% increased Energy Shield Recharge Rate during any Flask EffectCorrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Bloodplay",
-        "imgPath": "images\\daggerUnique\\Bloodplay_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Global Critical Strike Chance+20 to Strength"
-            },
-            {
-                "modStr": "(20-40)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (3-6) to (9-13) Physical Damage"
-            },
-            {
-                "modStr": "30% chance to cause Bleeding on Hit"
-            },
-            {
-                "modStr": "(100-150)% increased Critical Strike Chance against Bleeding Enemies"
-            },
-            {
-                "modStr": "Extra gore"
             }
         ]
     },
@@ -13309,30 +12674,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Duskdawn",
-        "imgPath": "images\\staffUnique\\Duskdawn_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+25% Chance to Block Attack Damage while wielding a Staff+10% Chance to Block Attack Damage while wielding a Staff"
-            },
-            {
-                "modStr": "(40-50)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "Gain (10-20)% of Elemental Damage as Extra Chaos Damage"
-            },
-            {
-                "modStr": "+1% to Critical Strike Multiplier per 1% Chance to Block Attack Damage"
-            },
-            {
-                "modStr": "+60% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently"
-            },
-            {
-                "modStr": "(120-150)% increased Elemental Damage if you've dealt a Critical Strike Recently"
-            }
-        ]
-    },
-    {
         "name": "Abberath's Horn",
         "imgPath": "images\\wandUnique\\Abberaths_Horn_inventory_icon.png",
         "mods": [
@@ -13549,30 +12890,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Farrul's Fur",
-        "imgPath": "images\\bodyUnique\\Farruls_Fur_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(100-150)% increased Armour and Evasion"
-            },
-            {
-                "modStr": "+(80-100) to maximum Life"
-            },
-            {
-                "modStr": "+2 seconds to Cat's Agility Duration"
-            },
-            {
-                "modStr": "Aspect of the Cat has no Reservation"
-            },
-            {
-                "modStr": "Gain up to your maximum number of Frenzy and Endurance Charges when you gain Cat's Agility"
-            },
-            {
-                "modStr": "You have Onslaught while you have Cat's Agility"
-            }
-        ]
-    },
-    {
         "name": "Dreamfeather",
         "imgPath": "images\\swordUnique\\Dreamfeather_inventory_icon.png",
         "mods": [
@@ -13660,39 +12977,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Pillars of Arun",
-        "imgPath": "images\\mapsUnique\\Pillars_of_Arun_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(60-100)% increased Experience gain"
-            },
-            {
-                "modStr": "Area contains unbridged gaps to cross"
-            },
-            {
-                "modStr": "Monsters have 50% chance to Avoid Ailments"
-            },
-            {
-                "modStr": "30% increased Pack size"
-            },
-            {
-                "modStr": "100% increased Monster Damage"
-            },
-            {
-                "modStr": "(20-25)% increased Monster Movement Speed"
-            },
-            {
-                "modStr": "(20-25)% increased Monster Attack Speed"
-            },
-            {
-                "modStr": "(20-25)% increased Monster Cast Speed"
-            },
-            {
-                "modStr": "Players have 200% increased Cooldown Recovery Rate for Movement Skills"
-            }
-        ]
-    },
-    {
         "name": "Soul Strike",
         "imgPath": "images\\quiverUnique\\Soul_Strike_inventory_icon.png",
         "mods": [
@@ -13713,27 +12997,6 @@ export const uniques = [
             },
             {
                 "modStr": "40% reduced Energy Shield Recharge Rate"
-            }
-        ]
-    },
-    {
-        "name": "Replica Stampede",
-        "imgPath": "images\\bootsUnique\\The_Stampede_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(100-150)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "(30-40)% increased Stun and Block Recovery"
-            },
-            {
-                "modStr": "Socketed Travel Skills deal 80% more Damage"
-            },
-            {
-                "modStr": "(30-40)% increased Mana Regeneration Rate while moving"
-            },
-            {
-                "modStr": "Your Movement Speed is 150% of its base value"
             }
         ]
     },
@@ -13983,33 +13246,6 @@ export const uniques = [
             },
             {
                 "modStr": "Level Requirement reduced by 100 (Hidden)"
-            }
-        ]
-    },
-    {
-        "name": "Replica Red Trail",
-        "imgPath": "images\\bootsUnique\\The_Red_Trail_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(60-100)% increased Armour"
-            },
-            {
-                "modStr": "+(60-100) to maximum Life"
-            },
-            {
-                "modStr": "30% increased Movement Speed"
-            },
-            {
-                "modStr": "Gain a Power Charge on Hit while Poisoned"
-            },
-            {
-                "modStr": "+30% to Chaos Resistance while stationary"
-            },
-            {
-                "modStr": "Necrotic Footprints"
-            },
-            {
-                "modStr": "50% chance for Spell Hits against you to inflict Poison"
             }
         ]
     },
@@ -15162,30 +14398,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Allure",
-        "imgPath": "images\\clawUnique\\Allure_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "2% of Physical Attack Damage Leeched as Life(110-130)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (15-20) to (30-40) Physical Damage"
-            },
-            {
-                "modStr": "(8-12)% increased Attack Speed"
-            },
-            {
-                "modStr": "Gain +50 Life when you Taunt an Enemy"
-            },
-            {
-                "modStr": "You gain Onslaught for 1 seconds on Killing Taunted Enemies"
-            },
-            {
-                "modStr": "Enemies Taunted by you take 10% increased Damage"
-            }
-        ]
-    },
-    {
         "name": "Rigwald's Curse",
         "imgPath": "images\\amuletUnique\\Rigwalds_Curse_inventory_icon.png",
         "mods": [
@@ -15200,27 +14412,6 @@ export const uniques = [
             },
             {
                 "modStr": "Modifiers to Claw Critical Strike Chance also apply to Unarmed Critical Strike Chance with Melee SkillsCorrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Hyrri's Truth",
-        "imgPath": "images\\amuletUnique\\Hyrris_Truth_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to DexterityGrants Level 22 Hatred Skill"
-            },
-            {
-                "modStr": "+(30-55) to Dexterity"
-            },
-            {
-                "modStr": "+(18-35)% to Global Critical Strike Multiplier"
-            },
-            {
-                "modStr": "Bow Attacks have Culling Strike"
-            },
-            {
-                "modStr": "Hatred has 100% increased Mana Reservation Efficiency"
             }
         ]
     },
@@ -15270,27 +14461,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Tasalio's Sign",
-        "imgPath": "images\\ringUnique\\Tasalios_Sign_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30)% to Cold ResistanceAdds (15-20) to (25-35) Cold Damage to Spells and Attacks"
-            },
-            {
-                "modStr": "+(200-300) to Evasion Rating"
-            },
-            {
-                "modStr": "Your Cold Damage cannot Freeze"
-            },
-            {
-                "modStr": "Immune to Chill"
-            },
-            {
-                "modStr": "Adds 60 to 80 Cold Damage against Chilled Enemies"
-            }
-        ]
-    },
-    {
         "name": "Xoph's Blood",
         "imgPath": "images\\amuletUnique\\Xophs_Blood_inventory_icon.png",
         "mods": [
@@ -15311,27 +14481,6 @@ export const uniques = [
             },
             {
                 "modStr": "Avatar of Fire"
-            }
-        ]
-    },
-    {
-        "name": "Replica Siegebreaker",
-        "imgPath": "images\\beltUnique\\Siegebreaker_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(25-35) to Strength(6-10)% increased maximum Energy Shield"
-            },
-            {
-                "modStr": "(6-10)% increased maximum Life"
-            },
-            {
-                "modStr": "+(15-25)% to Fire Resistance"
-            },
-            {
-                "modStr": "Your Minions spread Burning Ground on Death, dealing 20% of their maximum Life as Fire Damage per second"
-            },
-            {
-                "modStr": "Minions have 5% chance to Maim Enemies on Hit with Attacks"
             }
         ]
     },
@@ -15422,42 +14571,6 @@ export const uniques = [
             },
             {
                 "modStr": "Your Chaos Damage has 60% chance to Poison Enemies"
-            }
-        ]
-    },
-    {
-        "name": "Replica Loreweave",
-        "imgPath": "images\\bodyUnique\\Loreweave_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Has 6 Sockets"
-            },
-            {
-                "modStr": "+(8-24) to all Attributes"
-            },
-            {
-                "modStr": "Adds (4-10) to (14-36) Physical Damage to Attacks"
-            },
-            {
-                "modStr": "(120-160)% increased Global Critical Strike Chance"
-            },
-            {
-                "modStr": "+(150-200) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+(120-160) to maximum Life"
-            },
-            {
-                "modStr": "+(120-160) to maximum Mana"
-            },
-            {
-                "modStr": "(6-30)% increased Rarity of Items found"
-            },
-            {
-                "modStr": "(15-50)% increased Elemental Damage"
-            },
-            {
-                "modStr": "Your Maximum Resistances are (70-72)%"
             }
         ]
     },
@@ -15653,30 +14766,6 @@ export const uniques = [
             },
             {
                 "modStr": "Knockback direction is reversed"
-            }
-        ]
-    },
-    {
-        "name": "Replica Three-step Assault",
-        "imgPath": "images\\bootsUnique\\Three-step_Assault_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(25-35) to Dexterity"
-            },
-            {
-                "modStr": "(20-40)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "25% increased Movement Speed"
-            },
-            {
-                "modStr": "(10-30)% increased Elusive Effect"
-            },
-            {
-                "modStr": "10% increased Movement Speed if you've Hit an Enemy Recently"
             }
         ]
     },
@@ -16200,30 +15289,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Soul Strike",
-        "imgPath": "images\\quiverUnique\\Soul_Strike_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(20-30)% increased Critical Strike Chance with Bows+30 to Dexterity"
-            },
-            {
-                "modStr": "Adds (13-18) to (26-32) Physical Damage to Attacks"
-            },
-            {
-                "modStr": "(8-12)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(60-80) to maximum Life"
-            },
-            {
-                "modStr": "80% reduced Maximum Recovery per Life Leech"
-            },
-            {
-                "modStr": "40% increased Maximum total Life Recovery per second from Leech"
-            }
-        ]
-    },
-    {
         "name": "Scar of Fate",
         "imgPath": "images\\clawUnique\\Scar_of_Fate_inventory_icon.png",
         "mods": [
@@ -16328,30 +15393,6 @@ export const uniques = [
             },
             {
                 "modStr": "Corrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Ambu's Charge",
-        "imgPath": "images\\bodyUnique\\Ambus_Charge_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(180-220)% increased Armour and Energy Shield"
-            },
-            {
-                "modStr": "+(60-80) to maximum Life"
-            },
-            {
-                "modStr": "+15% to all Elemental Resistances"
-            },
-            {
-                "modStr": "Share Endurance Charges with nearby party members"
-            },
-            {
-                "modStr": "Gain an Endurance Charge when you are Hit"
-            },
-            {
-                "modStr": "Lose 2% of Life per second if you have been Hit Recently"
             }
         ]
     },
@@ -16962,30 +16003,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Iron Commander",
-        "imgPath": "images\\bowUnique\\Iron_Commander_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(30-50)% increased Critical Strike ChanceAdds (8-12) to (16-24) Physical Damage"
-            },
-            {
-                "modStr": "(14-20)% increased Attack Speed"
-            },
-            {
-                "modStr": "(14-20)% increased Totem Life"
-            },
-            {
-                "modStr": "(14-20)% increased Totem Placement speed"
-            },
-            {
-                "modStr": "Shrapnel Ballista has +1 to maximum number of Summoned Totems per 200 Strength"
-            },
-            {
-                "modStr": "Adds 1 to 3 Physical Damage to Attacks per 25 Strength"
-            }
-        ]
-    },
-    {
         "name": "Dance of the Offered",
         "imgPath": "images\\bootsUnique\\Dance_of_the_Offered_inventory_icon.png",
         "mods": [
@@ -17366,15 +16383,6 @@ export const uniques = [
             },
             {
                 "modStr": "30% increased Projectile Damage"
-            }
-        ]
-    },
-    {
-        "name": "Replica Voideye",
-        "imgPath": "images\\ringUnique\\78px-Voideye_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Has 1 Socket+30% to Quality of Socketed Gems"
             }
         ]
     },
@@ -17871,30 +16879,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Eternity Shroud",
-        "imgPath": "images\\bodyUnique\\The_Eternity_Shroud_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Trigger Level 20 Shade Form when Hit"
-            },
-            {
-                "modStr": "(100-150)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "+(70-100) to maximum Life"
-            },
-            {
-                "modStr": "+(17-23)% to Chaos Resistance"
-            },
-            {
-                "modStr": "Gain (3-5)% of Physical Damage as Extra Chaos Damage per Elder Item Equipped"
-            },
-            {
-                "modStr": "Hits ignore Enemy Monster Chaos Resistance if all Equipped Items are Elder Items"
-            }
-        ]
-    },
-    {
         "name": "Maelström of Chaos",
         "imgPath": "images\\mapsUnique\\Maelstrm_of_Chaos_inventory_icon.png",
         "mods": [
@@ -18095,30 +17079,6 @@ export const uniques = [
             },
             {
                 "modStr": "50% chance to cause Bleeding on Critical Strike"
-            }
-        ]
-    },
-    {
-        "name": "Replica Bones of Ullr",
-        "imgPath": "images\\bootsUnique\\Bones_of_Ullr_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(40-60)% increased Energy Shield"
-            },
-            {
-                "modStr": "+20 to maximum Life"
-            },
-            {
-                "modStr": "+20 to maximum Mana"
-            },
-            {
-                "modStr": "(5-15)% increased Movement Speed"
-            },
-            {
-                "modStr": "Summoned Phantasms have 10% chance to refresh their Duration when they Hit a Unique Enemy"
-            },
-            {
-                "modStr": "Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Unique Enemy"
             }
         ]
     },
@@ -18351,33 +17311,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Midnight Bargain",
-        "imgPath": "images\\wandUnique\\Midnight_Bargain_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(22-26)% increased Spell Damage+(10-20) to Intelligence"
-            },
-            {
-                "modStr": "Minions have (40-50)% increased Movement Speed"
-            },
-            {
-                "modStr": "Minions deal (50-70)% increased Damage"
-            },
-            {
-                "modStr": "+6 to maximum number of Raging Spirits"
-            },
-            {
-                "modStr": "+3 to maximum number of Summoned Phantasms"
-            },
-            {
-                "modStr": "Reserves 30% of Life"
-            },
-            {
-                "modStr": "Cannot be used with Chaos Inoculation"
-            }
-        ]
-    },
-    {
         "name": "Ondar's Clasp",
         "imgPath": "images\\glovesUnique\\Ondars_Clasp_inventory_icon.png",
         "mods": [
@@ -18392,27 +17325,6 @@ export const uniques = [
             },
             {
                 "modStr": "20% increased Movement Speed when on Low Life"
-            }
-        ]
-    },
-    {
-        "name": "Replica Headhunter",
-        "imgPath": "images\\beltUnique\\Headhunter_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(25-40) to maximum Life+(40-55) to Strength"
-            },
-            {
-                "modStr": "+(40-55) to Dexterity"
-            },
-            {
-                "modStr": "+(50-60) to maximum Life"
-            },
-            {
-                "modStr": "(20-30)% increased Damage with Hits against Magic monsters"
-            },
-            {
-                "modStr": "20% chance when you Kill a Magic Monster to gain its Modifiers for 60 seconds"
             }
         ]
     },
@@ -18554,24 +17466,6 @@ export const uniques = [
             },
             {
                 "modStr": "Blood Magic"
-            }
-        ]
-    },
-    {
-        "name": "Replica Harvest",
-        "imgPath": "images\\axeUnique\\The_Harvest_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(120-140)% increased Physical Damage"
-            },
-            {
-                "modStr": "1.2% of Damage Leeched as Life on Critical Strike"
-            },
-            {
-                "modStr": "3% increased Global Critical Strike Chance per Level"
-            },
-            {
-                "modStr": "Gain Elusive on Critical Strike"
             }
         ]
     },
@@ -18765,21 +17659,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Soul Tether",
-        "imgPath": "images\\beltUnique\\Soul_Tether_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(15-25)% increased Stun and Block Recovery+(20-40) to Strength"
-            },
-            {
-                "modStr": "Gain (4-6)% of Maximum Life as Extra Maximum Energy Shield"
-            },
-            {
-                "modStr": "Corrupted Soul"
-            }
-        ]
-    },
-    {
         "name": "Immutable Force",
         "imgPath": "images\\jewelDropUnique\\Brawn_inventory_icon.png",
         "mods": [
@@ -18924,30 +17803,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Dreamfeather",
-        "imgPath": "images\\swordUnique\\Dreamfeather_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+475 to Accuracy RatingAdds (40-65) to (70-100) Physical Damage"
-            },
-            {
-                "modStr": "(5-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(180-200) to Armour"
-            },
-            {
-                "modStr": "3% reduced Movement Speed"
-            },
-            {
-                "modStr": "+(280-300) to Accuracy Rating"
-            },
-            {
-                "modStr": "1% increased Attack Damage per 450 Armour"
-            }
-        ]
-    },
-    {
         "name": "Relic of the Cycle",
         "imgPath": "images\\bowUnique\\117px-Relic_of_the_Cycle_inventory_icon.png",
         "mods": [
@@ -19010,30 +17865,6 @@ export const uniques = [
             },
             {
                 "modStr": "60% chance to Poison on Hit"
-            }
-        ]
-    },
-    {
-        "name": "Replica Ungil's Gauche",
-        "imgPath": "images\\daggerUnique\\Ungils_Gauche_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Global Critical Strike Chance+18% Chance to Block Attack Damage while Dual Wielding"
-            },
-            {
-                "modStr": "+(10-20) to Dexterity"
-            },
-            {
-                "modStr": "10% increased Attack Speed"
-            },
-            {
-                "modStr": "50% increased Global Critical Strike Chance"
-            },
-            {
-                "modStr": "Chill Attackers for 4 seconds on Block"
-            },
-            {
-                "modStr": "Shock Attackers for 4 seconds on Block"
             }
         ]
     },
@@ -19220,27 +18051,6 @@ export const uniques = [
             },
             {
                 "modStr": "(15-25)% increased Poison Duration if you have at least 150 Intelligence"
-            }
-        ]
-    },
-    {
-        "name": "Replica Paradoxica",
-        "imgPath": "images\\swordUnique\\Paradoxica_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+25% to Global Critical Strike MultiplierVeiled Prefix"
-            },
-            {
-                "modStr": "Veiled Prefix"
-            },
-            {
-                "modStr": "Veiled Suffix"
-            },
-            {
-                "modStr": "Veiled Suffix"
-            },
-            {
-                "modStr": "Veiled Prefix"
             }
         ]
     },
@@ -19593,48 +18403,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Cortex",
-        "imgPath": "images\\mapsUnique\\Cortex_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "25% increased Pack size"
-            },
-            {
-                "modStr": "200% increased Experience gain"
-            },
-            {
-                "modStr": "Monster Level: 84"
-            },
-            {
-                "modStr": "Map has (6-8) additional random Modifiers"
-            },
-            {
-                "modStr": "Map has (4-6) additional Synthesis Global ModifiersCorrupted"
-            }
-        ]
-    },
-    {
-        "name": "Replica Kalisa's Grace",
-        "imgPath": "images\\glovesUnique\\Kalisas_Grace_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Socketed Gems are Supported by Level 18 Unleash"
-            },
-            {
-                "modStr": "+(20-30) to Intelligence"
-            },
-            {
-                "modStr": "+(50-80) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "Gain 40% increased Area of Effect for 2 seconds after Spending a total of 800 Mana"
-            }
-        ]
-    },
-    {
         "name": "Memory Vault",
         "imgPath": "images\\helmetUnique\\Memory_Vault_inventory_icon.png",
         "mods": [
@@ -19811,21 +18579,6 @@ export const uniques = [
             },
             {
                 "modStr": "Rampage"
-            }
-        ]
-    },
-    {
-        "name": "Replica Kaom's Heart",
-        "imgPath": "images\\bodyUnique\\Kaoms_Heart_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Has no Sockets"
-            },
-            {
-                "modStr": "(30-40)% increased Lightning Damage"
-            },
-            {
-                "modStr": "+500 to maximum Mana"
             }
         ]
     },
@@ -20439,57 +19192,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Innsbury Edge",
-        "imgPath": "images\\swordUnique\\Innsbury_Edge_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+330 to Accuracy Rating(100-140)% increased Physical Damage"
-            },
-            {
-                "modStr": "0.2% of Chaos Damage Leeched as Life"
-            },
-            {
-                "modStr": "50% of Physical Damage Converted to Chaos Damage"
-            },
-            {
-                "modStr": "10% of Physical Damage from Hits taken as Chaos Damage"
-            },
-            {
-                "modStr": "Inflict Withered for 2 seconds on Hit with this Weapon"
-            },
-            {
-                "modStr": "Insanity (Hidden)"
-            }
-        ]
-    },
-    {
-        "name": "Replica Abyssus",
-        "imgPath": "images\\helmetUnique\\Abyssus_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-25) to all Attributes"
-            },
-            {
-                "modStr": "Adds 40 to 75 Fire Damage to Attacks"
-            },
-            {
-                "modStr": "Adds 30 to 65 Cold Damage to Attacks"
-            },
-            {
-                "modStr": "Adds 10 to 130 Lightning Damage to Attacks"
-            },
-            {
-                "modStr": "+(100-125)% to Melee Critical Strike Multiplier"
-            },
-            {
-                "modStr": "(100-120)% increased Armour"
-            },
-            {
-                "modStr": "(40-50)% increased Elemental Damage taken"
-            }
-        ]
-    },
-    {
         "name": "Starlight Chalice",
         "imgPath": "images\\flaskUnique\\Starlight_Chalice_inventory_icon.png",
         "mods": [
@@ -20540,30 +19242,6 @@ export const uniques = [
             },
             {
                 "modStr": "Inner Conviction"
-            }
-        ]
-    },
-    {
-        "name": "Replica Maloney's Mechanism",
-        "imgPath": "images\\quiverUnique\\Maloneys_Mechanism_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Has 1 SocketHas 2 Sockets"
-            },
-            {
-                "modStr": "Trigger a Socketed Bow Skill when you Cast a Spell while"
-            },
-            {
-                "modStr": "wielding a Bow, with a 1 second Cooldown"
-            },
-            {
-                "modStr": "(7-12)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "5% chance to Blind Enemies on Hit with Attacks"
             }
         ]
     },
@@ -21957,21 +20635,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Sorrow of the Divine",
-        "imgPath": "images\\flaskUnique\\The_Sorrow_of_the_Divine_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Creates Consecrated Ground on Use(25-50)% increased Duration"
-            },
-            {
-                "modStr": "Eldritch Battery during Effect"
-            },
-            {
-                "modStr": "Life Recovery from Flasks also applies to Energy Shield during Effect"
-            }
-        ]
-    },
-    {
         "name": "The Queen's Hunger",
         "imgPath": "images\\bodyUnique\\The_Queens_Hunger_inventory_icon.png",
         "mods": [
@@ -22461,30 +21124,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Alberon's Warpath",
-        "imgPath": "images\\bootsUnique\\Alberons_Warpath_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(15-18)% increased Strength"
-            },
-            {
-                "modStr": "+(180-220) to Armour"
-            },
-            {
-                "modStr": "+(13-19)% to Chaos Resistance"
-            },
-            {
-                "modStr": "25% increased Movement Speed"
-            },
-            {
-                "modStr": "Cannot deal non-Chaos Damage"
-            },
-            {
-                "modStr": "Adds 1 to 80 Chaos Damage to Attacks per 80 Strength"
-            }
-        ]
-    },
-    {
         "name": "Mutewind Whispersteps",
         "imgPath": "images\\bootsUnique\\Mutewind_Whispersteps_inventory_icon.png",
         "mods": [
@@ -22886,27 +21525,6 @@ export const uniques = [
             },
             {
                 "modStr": "(7-10)% more Melee Physical Damage during effect"
-            }
-        ]
-    },
-    {
-        "name": "Replica Tukohama's Fortress",
-        "imgPath": "images\\shieldUnique\\Tukohamas_Fortress_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to maximum Life+(80-100) to maximum Life"
-            },
-            {
-                "modStr": "You can Cast an additional Brand"
-            },
-            {
-                "modStr": "20% increased Critical Strike Chance per Brand"
-            },
-            {
-                "modStr": "40% increased Brand Damage"
-            },
-            {
-                "modStr": "Blood Magic"
             }
         ]
     },
@@ -23421,30 +22039,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Blood Thorn",
-        "imgPath": "images\\staffUnique\\The_Blood_Thorn_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+18% Chance to Block Attack Damage while wielding a Staff+12% Chance to Block Attack Damage while wielding a Staff"
-            },
-            {
-                "modStr": "100% increased Fire Damage"
-            },
-            {
-                "modStr": "(5-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "Curse Enemies with Flammability on Block, with 20% increased Effect"
-            },
-            {
-                "modStr": "Reflects (22-44) Fire Damage to Attackers on Block"
-            },
-            {
-                "modStr": "Level Requirement reduced by 100 (Hidden)"
-            }
-        ]
-    },
-    {
         "name": "Marylene's Fallacy",
         "imgPath": "images\\amuletUnique\\Marylenes_Fallacy_inventory_icon.png",
         "mods": [
@@ -23546,30 +22140,6 @@ export const uniques = [
             },
             {
                 "modStr": "Found Magic Items drop Identified"
-            }
-        ]
-    },
-    {
-        "name": "Replica Advancing Fortress",
-        "imgPath": "images\\clawUnique\\Advancing_Fortress_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Grants 44 Life per Enemy HitSocketed Gems are Supported by Level 12 Cast when Damage Taken"
-            },
-            {
-                "modStr": "15% Chance to Block Attack Damage"
-            },
-            {
-                "modStr": "(100-120)% increased Physical Damage"
-            },
-            {
-                "modStr": "+(30-50) to maximum Life"
-            },
-            {
-                "modStr": "50% increased Defences from Equipped Shield"
-            },
-            {
-                "modStr": "Adds 45 to 75 Fire Damage if you've Blocked Recently"
             }
         ]
     },
@@ -23850,27 +22420,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Earendel's Embrace",
-        "imgPath": "images\\sceptreUnique\\Earendels_Embrace_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "18% increased Elemental Damage+(20-30) to all Attributes"
-            },
-            {
-                "modStr": "Minions deal (30-40)% increased Damage"
-            },
-            {
-                "modStr": "Raised Zombies Cover Enemies in Ash on Hit"
-            },
-            {
-                "modStr": "Raised Zombies take (15-30)% of their Maximum Life per second as Fire Damage"
-            },
-            {
-                "modStr": "Raised Zombies have Avatar of Fire"
-            }
-        ]
-    },
-    {
         "name": "Rumi's Concoction",
         "imgPath": "images\\flaskUnique\\Rumis_Concoction_inventory_icon.png",
         "mods": [
@@ -24108,45 +22657,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Poorjoy's Asylum",
-        "imgPath": "images\\mapsUnique\\Poorjoys_Asylum_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "200% increased Experience gain"
-            },
-            {
-                "modStr": "(140-160)% more Monster Life"
-            },
-            {
-                "modStr": "50% increased Pack size"
-            },
-            {
-                "modStr": "Monsters have (500-1000)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "+(60-100)% to Monster Critical Strike Multiplier"
-            },
-            {
-                "modStr": "(140-160)% increased Monster Damage"
-            },
-            {
-                "modStr": "25% increased Monster Movement Speed"
-            },
-            {
-                "modStr": "25% increased Monster Attack Speed"
-            },
-            {
-                "modStr": "25% increased Monster Cast Speed"
-            },
-            {
-                "modStr": "Area is a large Maze"
-            },
-            {
-                "modStr": "Unique Boss drops (10-15) additional Rare (Life Flasks-Boots)"
-            }
-        ]
-    },
-    {
         "name": "Taryn's Shiver",
         "imgPath": "images\\staffUnique\\Taryns_Shiver_inventory_icon.png",
         "mods": [
@@ -24375,30 +22885,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Primordial Might",
-        "imgPath": "images\\jewelDropUnique\\Primordial_Might_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "-1 to maximum number of Summoned Golems"
-            },
-            {
-                "modStr": "(25-30)% increased Damage if you Summoned a Golem in the past 8 seconds"
-            },
-            {
-                "modStr": "Golems Summoned in the past 8 seconds deal (100-125)% increased Damage"
-            },
-            {
-                "modStr": "Golems have (18-22)% increased Maximum Life"
-            },
-            {
-                "modStr": "Primordial"
-            },
-            {
-                "modStr": "Summoned Golems are Aggressive"
-            }
-        ]
-    },
-    {
         "name": "Sundance",
         "imgPath": "images\\bootsUnique\\Sundance_inventory_icon.png",
         "mods": [
@@ -24455,27 +22941,6 @@ export const uniques = [
             },
             {
                 "modStr": "+(40-70) to maximum Mana"
-            }
-        ]
-    },
-    {
-        "name": "Replica Rumi's Concoction",
-        "imgPath": "images\\flaskUnique\\Rumis_Concoction_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Gain 1 Endurance Charge on use"
-            },
-            {
-                "modStr": "+(35-50)% Chance to Block Attack Damage during Effect"
-            },
-            {
-                "modStr": "+(20-30)% Chance to Block Spell Damage during Effect"
-            },
-            {
-                "modStr": "Petrified during Effect"
-            },
-            {
-                "modStr": "90% reduced Duration"
             }
         ]
     },
@@ -24551,18 +23016,6 @@ export const uniques = [
             },
             {
                 "modStr": "15% chance to gain a Frenzy Charge when you Stun an Enemy"
-            }
-        ]
-    },
-    {
-        "name": "Replica Cold Iron Point",
-        "imgPath": "images\\daggerUnique\\Cold_Iron_Point_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Global Critical Strike Chance+3 to Level of all Cold Spell Skill Gems"
-            },
-            {
-                "modStr": "Deal no Cold Damage"
             }
         ]
     },
@@ -25281,30 +23734,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Alpha's Howl",
-        "imgPath": "images\\helmetUnique\\Alphas_Howl_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+4 to Level of Socketed Herald Gems"
-            },
-            {
-                "modStr": "(80-100)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+(20-30)% to Chaos Resistance"
-            },
-            {
-                "modStr": "25% chance to Avoid being Poisoned"
-            },
-            {
-                "modStr": "16% increased Mana Reservation Efficiency of Skills"
-            },
-            {
-                "modStr": "You cannot be Hindered"
-            }
-        ]
-    },
-    {
         "name": "Indigon",
         "imgPath": "images\\helmetUnique\\Indigon_inventory_icon.png",
         "mods": [
@@ -25608,36 +24037,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Oro's Sacrifice",
-        "imgPath": "images\\swordUnique\\Oros_Sacrifice_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "30% increased Elemental Damage with Attack SkillsNo Physical Damage"
-            },
-            {
-                "modStr": "Adds (385-440) to (490-545) Cold Damage"
-            },
-            {
-                "modStr": "(10-15)% increased Attack Speed"
-            },
-            {
-                "modStr": "1% of Damage against Frozen Enemies Leeched as Life"
-            },
-            {
-                "modStr": "20% chance to Freeze"
-            },
-            {
-                "modStr": "10% increased Physical Damage taken"
-            },
-            {
-                "modStr": "10% increased Cold Damage taken"
-            },
-            {
-                "modStr": "Gain an Endurance Charge if an Attack Freezes an Enemy"
-            }
-        ]
-    },
-    {
         "name": "Vix Lunaris",
         "imgPath": "images\\shieldUnique\\Vix_Lunaris_inventory_icon.png",
         "mods": [
@@ -25655,51 +24054,6 @@ export const uniques = [
             },
             {
                 "modStr": "Cannot be Frozen"
-            }
-        ]
-    },
-    {
-        "name": "Replica Veil of the Night",
-        "imgPath": "images\\helmetUnique\\Veil_of_the_Night_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(20-22)% increased Stun and Block Recovery"
-            },
-            {
-                "modStr": "40% reduced Light Radius"
-            },
-            {
-                "modStr": "Reflects 1 to (180-220) Lightning Damage to Attackers on Block"
-            },
-            {
-                "modStr": "Defences are Zero"
-            },
-            {
-                "modStr": "(18-22)% increased Elemental Resistances"
-            }
-        ]
-    },
-    {
-        "name": "Replica Mistwall",
-        "imgPath": "images\\shieldUnique\\Mistwall_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "6% increased Movement Speed(120-150)% increased Evasion Rating"
-            },
-            {
-                "modStr": "10% increased Movement Speed"
-            },
-            {
-                "modStr": "+(10-20)% to Fire and Cold Resistances"
-            },
-            {
-                "modStr": "+75% Chance to Block Spell Damage if you have not Blocked Recently"
-            },
-            {
-                "modStr": "+(8-15)% chance to Avoid Physical Damage from Hits while Phasing"
-            },
-            {
-                "modStr": "You have Phasing if you have Blocked Recently"
             }
         ]
     },
@@ -25799,30 +24153,6 @@ export const uniques = [
             },
             {
                 "modStr": "Damage Penetrates 20% Cold Resistance against Chilled Enemies"
-            }
-        ]
-    },
-    {
-        "name": "Replica Grip of the Council",
-        "imgPath": "images\\glovesUnique\\Grip_of_the_Council_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+30 to Strength"
-            },
-            {
-                "modStr": "+(30-50) to maximum Life"
-            },
-            {
-                "modStr": "+(20-40)% to Fire Resistance"
-            },
-            {
-                "modStr": "Minions have 10% reduced maximum Life"
-            },
-            {
-                "modStr": "Minions have +40% to Fire Resistance"
-            },
-            {
-                "modStr": "Minions gain 20% of Physical Damage as Extra Fire Damage"
             }
         ]
     },
@@ -26847,36 +25177,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Infractem",
-        "imgPath": "images\\bowUnique\\Infractem_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(30-50)% increased Critical Strike Chance+(20-30) to Dexterity"
-            },
-            {
-                "modStr": "(70-80)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (25-35) to (36-45) Physical Damage"
-            },
-            {
-                "modStr": "10% increased Movement Speed"
-            },
-            {
-                "modStr": "+(350-400) to Accuracy Rating"
-            },
-            {
-                "modStr": "Cannot Leech Life"
-            },
-            {
-                "modStr": "Projectiles from Attacks Fork"
-            },
-            {
-                "modStr": "Projectiles from Attacks Fork an additional time"
-            }
-        ]
-    },
-    {
         "name": "Fidelitas' Spike",
         "imgPath": "images\\swordUnique\\Fidelitas_Spike_inventory_icon.png",
         "mods": [
@@ -27288,27 +25588,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Frostbreath",
-        "imgPath": "images\\maceUnique\\Frostbreath_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "15% reduced Enemy Stun ThresholdAdds (53-67) to (71-89) Chaos Damage"
-            },
-            {
-                "modStr": "(8-14)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(23-31)% to Chaos Resistance"
-            },
-            {
-                "modStr": "Your Chaos Damage can Chill"
-            },
-            {
-                "modStr": "Attacks with this Weapon deal Double Damage to Chilled Enemies"
-            }
-        ]
-    },
-    {
         "name": "Gravebind",
         "imgPath": "images\\glovesUnique\\Gravebind_inventory_icon.png",
         "mods": [
@@ -27368,27 +25647,6 @@ export const uniques = [
             },
             {
                 "modStr": "Recover (40-60) Life when you Ignite an Enemy"
-            }
-        ]
-    },
-    {
-        "name": "Replica Winterheart",
-        "imgPath": "images\\amuletUnique\\Winterheart_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "(12-20)% increased Rarity of Items found+(20-30) to Dexterity"
-            },
-            {
-                "modStr": "+(50-70) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+75% to Lightning Resistance"
-            },
-            {
-                "modStr": "Regenerate 5% of Energy Shield per second while Shocked"
-            },
-            {
-                "modStr": "Unaffected by Shock"
             }
         ]
     },
@@ -27599,30 +25857,6 @@ export const uniques = [
             },
             {
                 "modStr": "Gain (5-8)% of Physical Damage as Extra Chaos Damage during effect"
-            }
-        ]
-    },
-    {
-        "name": "Replica Kongor's Undying Rage",
-        "imgPath": "images\\maceUnique\\Kongors_Undying_Rage_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "25% chance to double Stun DurationAdds (43-56) to (330-400) Physical Damage"
-            },
-            {
-                "modStr": "(30-40)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "+(15-20)% to all Elemental Resistances"
-            },
-            {
-                "modStr": "Hits can't be Evaded"
-            },
-            {
-                "modStr": "Your Critical Strikes do not deal extra Damage"
-            },
-            {
-                "modStr": "Regenerate 20% of Energy Shield per second if you've dealt a Critical Strike with this weapon Recently"
             }
         ]
     },
@@ -28308,27 +26542,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Atziri's Acuity",
-        "imgPath": "images\\glovesUnique\\Atziris_Acuity_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(60-80) to Intelligence"
-            },
-            {
-                "modStr": "(40-60)% increased Global Critical Strike Chance"
-            },
-            {
-                "modStr": "(200-220)% increased Armour"
-            },
-            {
-                "modStr": "+(60-75) to maximum Life"
-            },
-            {
-                "modStr": "You have Perfect Agony if you've dealt a Critical Strike recently"
-            }
-        ]
-    },
-    {
         "name": "Scorpion's Call",
         "imgPath": "images\\quiverUnique\\Scorpions_Call_inventory_icon.png",
         "mods": [
@@ -28454,21 +26667,6 @@ export const uniques = [
             },
             {
                 "modStr": "+2 to Level of all Fire Spell Skill Gems"
-            }
-        ]
-    },
-    {
-        "name": "Replica Forbidden Shako",
-        "imgPath": "images\\helmetUnique\\Forbidden_Shako_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Socketed Gems are Supported by Level (1-10) <random Support Gem>"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level (25-35) <random Support Gem>"
-            },
-            {
-                "modStr": "+(25-30) to all Attributes"
             }
         ]
     },
@@ -28719,27 +26917,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Replica Inya's Epiphany",
-        "imgPath": "images\\bootsUnique\\Inyas_Epiphany_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "+(50-70) to maximum Life"
-            },
-            {
-                "modStr": "Regenerate 0.5% of Life per second per Power Charge"
-            },
-            {
-                "modStr": "(5-8)% increased Intelligence"
-            },
-            {
-                "modStr": "5% increased Damage per Power Charge"
-            },
-            {
-                "modStr": "5% increased Movement Speed per Power Charge"
-            }
-        ]
-    },
-    {
         "name": "Inspired Learning",
         "imgPath": "images\\jewelDropUnique\\Inspired_Learning_inventory_icon.png",
         "mods": [
@@ -28781,27 +26958,6 @@ export const uniques = [
             },
             {
                 "modStr": "(10-20)% increased Area Damage"
-            }
-        ]
-    },
-    {
-        "name": "Replica Last Resort",
-        "imgPath": "images\\clawUnique\\Last_Resort_inventory_icon.png",
-        "mods": [
-            {
-                "modStr": "Grants 3 Life per Enemy Hit25% increased Attack Speed when on Low Life"
-            },
-            {
-                "modStr": "(80-100)% increased Physical Damage"
-            },
-            {
-                "modStr": "100% increased Accuracy Rating when on Low Life"
-            },
-            {
-                "modStr": "200% increased Damage with Claws while on Low Life"
-            },
-            {
-                "modStr": "Deal no Damage when not on Low Life"
             }
         ]
     },

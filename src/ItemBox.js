@@ -1,18 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import {
-    Accordion,
-    AccordionDetails,
-    AccordionSummary,
-    Box,
-    Button,
-    Container,
-    Divider,
     Grid,
-    Icon,
-    TextField,
     Typography,
-    Autocomplete,
 } from '@mui/material';
 
 const domain = 'http://localhost:3000/poedle/'
@@ -22,13 +12,13 @@ export default function ItemBox(props) {
         props;
 
     return (
-        <Box
+        <Grid
             display='flex'
             flexDirection='column'
             alignItems='center'
             marginBottom={2}
         >
-            <Box height={30}>
+            <Grid height={30}>
                 <Typography
                     variant='h6'
                     component='div'
@@ -37,8 +27,8 @@ export default function ItemBox(props) {
                 >
                     {showName ? name : ''}
                 </Typography>
-            </Box>
-            <Box
+            </Grid>
+            <Grid
                 width='400'
                 minWidth='400'
                 height='300'
@@ -53,7 +43,7 @@ export default function ItemBox(props) {
                     backgroundRepeat: 'no-repeat',
                 }}
             />
-            <Box
+            <Grid
                 width={365}
                 padding={2}
                 minHeight={150}
@@ -68,8 +58,8 @@ export default function ItemBox(props) {
                             </Typography>
                         );
                     })}
-            </Box>
-            <Box minHeight={50} marginTop={2} width={390}>
+            </Grid>
+            <Grid minHeight={50} marginTop={2} width={390}>
                 {showFlavorText && flavorText && (
                     <Typography
                         variant='body1'
@@ -78,7 +68,7 @@ export default function ItemBox(props) {
                         {flavorText}
                     </Typography>
                 )}
-            </Box>
-        </Box>
+            </Grid>
+        </Grid>
     );
 }
