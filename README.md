@@ -2,6 +2,7 @@
 
 # Todo
 - Allow submit on enter
+- Add cookie that saves progress for daily quizzes
 - Change img names
 - Add more quizzes 
   - gem
