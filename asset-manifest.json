@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/poedle/static/css/main.8552be8a.css",
-    "main.js": "/poedle/static/js/main.875cd236.js",
+    "main.js": "/poedle/static/js/main.552a477f.js",
     "static/js/787.aa03dde1.chunk.js": "/poedle/static/js/787.aa03dde1.chunk.js",
     "index.html": "/poedle/index.html",
     "main.8552be8a.css.map": "/poedle/static/css/main.8552be8a.css.map",
-    "main.875cd236.js.map": "/poedle/static/js/main.875cd236.js.map",
+    "main.552a477f.js.map": "/poedle/static/js/main.552a477f.js.map",
     "787.aa03dde1.chunk.js.map": "/poedle/static/js/787.aa03dde1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8552be8a.css",
-    "static/js/main.875cd236.js"
+    "static/js/main.552a477f.js"
   ]
 }
