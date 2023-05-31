@@ -80,6 +80,7 @@ function App() {
   const [endlessQuizType, setEndlessQuizType] = useState('');
   const [correctGuesses, setCorrectGuesses] = useState(0);
 
+
   const handleDailyQuizChange = (dailyQuiz) => {
     switch (dailyQuiz) {
       case 'dailyUnique':
