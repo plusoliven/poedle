@@ -11,3 +11,4 @@
 - ~~Remove items with the same image (agnerod)~~
 - ~~Remove replica from import~~
 - ~~Fix element width~~
+- Fix import of mods (e.g. fracturing spinner Adds (7-9) to (13-16) Physical Damage to AttacksGrants Summon Harbinger of Directions Skill)
