@@ -1,6 +1,7 @@
 # https://plusoliven.github.io/poedle/
 
 # Todo
+- Allow submit on enter
 - Change img names
 - Add more quizzes 
   - gem
