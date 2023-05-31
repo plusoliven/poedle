@@ -5,7 +5,7 @@ import {
     Typography,
 } from '@mui/material';
 
-const domain = 'https://plusoliven.github.io/poedle/'
+const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
 
 export default function ItemBox(props) {
     const { name, img, mods, flavorText, showName, showMods, showFlavorText } =
@@ -44,7 +44,7 @@ export default function ItemBox(props) {
                 }}
             />
             <Grid
-                width={365}
+                width={390}
                 padding={2}
                 minHeight={150}
                 style={{ backgroundColor: '#232935', borderRadius: '12px' }}

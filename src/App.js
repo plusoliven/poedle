@@ -18,7 +18,7 @@ import { divCards } from './data.mjs';
 import { uniques } from './data.mjs';
 
 const startDate = new Date('2023-05-29');
-const domain = 'https://plusoliven.github.io/poedle/'
+const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
 
 function getItemForToday(itemArray) {
   let index = getDayDiff() % itemArray.length;
@@ -98,7 +98,7 @@ function App() {
       case 'dailyDivination':
         setQuizType('dailyDivination');
         setQuizItem(getItemForToday(divCards));
-        // setQuizItem(divCards.find((item) => item.name === 'Matryoshka'));
+        // setQuizItem(divCards.find((item) => item.name === 'The Messenger'));
         const alphabeticDivCards = [...divCards];
         setAutocompleteOptions(
           alphabeticDivCards
@@ -119,7 +119,7 @@ function App() {
 
     if (isEndlessQuiz && guess === quizItems[correctGuesses].name) {
       setCorrectGuesses(correctGuesses + 1);
-      return
+      return;
     }
 
     if (guess === quizItem.name) {
@@ -343,7 +343,7 @@ function App() {
                   renderInput={(params) => (
                     <TextField
                       {...params}
-                      sx={{ width: 340 }}
+                      sx={{ width: 326 }}
                       label='Guess'
                       InputProps={{
                         ...params.InputProps,
@@ -356,6 +356,12 @@ function App() {
                         style: { color: '#FFFFFF' },
                       }}
                       disabled={gameResult !== ''}
+                      onKeyDown={(event) => {
+                        if (event.key === 'Enter') {
+                          event.preventDefault();
+                          handleGuess(guess);
+                        }
+                      }}
                     />
                   )}
                   ListboxProps={{
@@ -365,7 +371,6 @@ function App() {
                   }}
                   options={autocompleteOptions}
                   onChange={(event, value) => setGuess(value)}
-                  onSubmit={() => handleGuess(guess)}
                 />
                 <Button
                   sx={{

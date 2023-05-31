@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 import fs from 'fs';
+import crypto from 'crypto';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -20,7 +21,7 @@ const divCardRewardColors = {
     'tc -divination': '#0ebaff'
 }
 
-const skipImgs = true;
+const skipImgs = false;
 
 
 class SeededRandom {
@@ -39,6 +40,15 @@ function seededShuffle(array, seed) {
         const j = Math.floor(rng.nextFloat() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+}
+
+function generateRandomString() {
+    var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var result = '';
+    for (var i = 8; i > 0; --i) {
+        result += chars[Math.floor(Math.random() * chars.length)];
+    }
+    return result;
 }
 
 const uniqueItemTypes = {
@@ -116,7 +126,10 @@ const fetchItems = async (url, itemType) => {
             const row$ = $(row);
 
             const name = row$.find('span.c-item-hoverbox__activator a[title]').first().text().trim();
-            if (name) {
+            if (name && !name.includes('Replica')) {
+                // special handling for agnerod staves
+                if (name.includes('Agnerod') && name !== 'Agnerod North') continue;
+
                 row$.find('td').eq(statsIndex).find('table').remove()
 
                 // despair
@@ -149,9 +162,7 @@ const fetchItems = async (url, itemType) => {
 
                 const imgPath = `https://www.poewiki.net${row$.find('span.c-item-hoverbox__activator a[title] img')?.attr('srcset')?.split(',').pop().trim().split(' ')[0]}`;
 
-                let imageName = path.basename(new URL(imgPath).pathname);
-                imageName = decodeURIComponent(imageName);
-                imageName = imageName.replace(/[^\w-.]/g, '');
+                const imageName = generateRandomString() + '.png';
                 const savePath = path.join(__dirname, 'images', itemType, imageName);
 
                 if (!skipImgs) {
@@ -240,13 +251,11 @@ const fetchDivCards = async (url) => {
                 const divPage$ = cheerio.load(await divResponse.text());
 
                 const imgPath = `https://www.poewiki.net${divPage$('span.divicard-artlink:first a.image img').attr('src')}`;
-                let imageName = path.basename(new URL(imgPath).pathname);
-                imageName = decodeURIComponent(imageName);
-                imageName = imageName.replace(/[^\w-.]/g, '');
+                const imageName = generateRandomString() + '.png';
                 const savePath = path.join(__dirname, 'images', 'divCard', imageName);
 
                 // lol
-                const flavorText = name !== 'The Messenger' ? divPage$('span.divicard-flavour:first').html().replaceAll('<br>', '\n') : ''
+                const flavorText = name !== 'The Messenger' ? divPage$('span.divicard-flavour:first').html().replaceAll('<br>', '\n') : '▀ ▐ ▉ ◥ ▊ ▟ ▆ ▦ ▒ ▀ ▉\n▐ ▊ ▟ ◥ ▒ ▀ ▆ ▦ ▟ ▉ ▒ ▀ ▐ ▊'
 
                 if (!skipImgs) {
                     fs.mkdirSync(path.dirname(savePath), { recursive: true });
@@ -298,4 +307,7 @@ const fetchAllItems = async () => {
     fs.writeFileSync(path.join(__dirname, 'data.mjs'), dataFileContent);
 }
 
+
 await fetchAllItems()
+
+
