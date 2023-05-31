@@ -18,7 +18,7 @@ import { divCards } from './data.mjs';
 import { uniques } from './data.mjs';
 
 const startDate = new Date('2023-05-29');
-const domain = 'http://localhost:3000/poedle/'
+const domain = 'https://plusoliven.github.io/poedle/'
 
 function getItemForToday(itemArray) {
   let index = getDayDiff() % itemArray.length;

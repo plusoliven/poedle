@@ -5,7 +5,7 @@ import {
     Typography,
 } from '@mui/material';
 
-const domain = 'http://localhost:3000/poedle/'
+const domain = 'https://plusoliven.github.io/poedle/'
 
 export default function ItemBox(props) {
     const { name, img, mods, flavorText, showName, showMods, showFlavorText } =
