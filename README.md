@@ -7,6 +7,7 @@
 - Add more quizzes 
   - gem
   - keystones / timeless keystone
+  - Odd one out
 - Cleanup code :)
 - ~~Remove items with the same image (agnerod)~~
 - ~~Remove replica from import~~
