@@ -268,6 +268,7 @@ const dropDisabled = [
     "Corona Solaris",
     "Realm Ender",
     "The Winds of Fate",
+    "Relic of the Cycle",
 ]
 
 const skipImgs = false;

@@ -15260,24 +15260,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Relic of the Cycle",
-        "imgPath": "images\\bowUnique\\GzPc9aTr.png",
-        "mods": [
-            {
-                "modStr": "100% increased Physical Damage"
-            },
-            {
-                "modStr": "10% increased Attack Speed"
-            },
-            {
-                "modStr": "+30 to Accuracy Rating"
-            },
-            {
-                "modStr": "Projectiles Return to you from final target"
-            }
-        ]
-    },
-    {
         "name": "To Dust",
         "imgPath": "images\\jewelCorruptUnique\\xW7CZnhd.png",
         "mods": [
