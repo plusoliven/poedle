@@ -19,6 +19,7 @@ import { divCards } from './data.mjs';
 import { uniques } from './data.mjs';
 
 const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
+const version = '0.3'
 
 
 const theme = createTheme({
@@ -399,7 +400,7 @@ function App() {
               fontSize: 10
             }}
           >
-            This site is not affiliated with Grinding Gear Games or Path of Exile. All resources and images used belong to Grinding Gear Games.
+            v.{version}<br />This site is not affiliated with Grinding Gear Games or Path of Exile. All resources and images used belong to Grinding Gear Games.
           </div>
 
           <a
