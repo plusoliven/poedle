@@ -12,4 +12,6 @@
 - ~~Remove replica from import~~
 - ~~Fix element width~~
 - Fix import of mods (e.g. fracturing spinner Adds (7-9) to (13-16) Physical Damage to AttacksGrants Summon Harbinger of Directions Skill)
-- remove prophecy uniques (karui charge, thirst for horrors ...)
+- ~~remove prophecy uniques (karui charge, thirst for horrors ...)~~
+  - ~~Remove all drop-disabled items~~
+- ~~Fix time it "resets", should be UTC now~~

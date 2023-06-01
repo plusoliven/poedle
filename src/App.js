@@ -13,34 +13,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import ItemBox from './ItemBox';
+import { getDayDiff, getItemForToday, shuffleArray, sortArrayAlphabetically } from './util';
 
 import { divCards } from './data.mjs';
 import { uniques } from './data.mjs';
 
-const startDate = new Date('2023-05-29');
 const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
 
-function getItemForToday(itemArray) {
-  let index = getDayDiff() % itemArray.length;
-
-  return itemArray[index];
-}
-
-function getDayDiff() {
-  let today = new Date();
-
-  startDate.setHours(0, 0, 0, 0);
-  today.setHours(0, 0, 0, 0);
-
-  return Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
-}
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
 
 const theme = createTheme({
   palette: {
@@ -86,27 +65,12 @@ function App() {
       case 'dailyUnique':
         setQuizType('dailyUnique');
         setQuizItem(getItemForToday(uniques));
-        const alphabeticUniques = [...uniques];
-        setAutocompleteOptions(
-          alphabeticUniques
-            .sort((a, b) =>
-              a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-            )
-            .map((item) => item.name)
-        );
+        setAutocompleteOptions(sortArrayAlphabetically(uniques))
         break;
       case 'dailyDivination':
         setQuizType('dailyDivination');
         setQuizItem(getItemForToday(divCards));
-        // setQuizItem(divCards.find((item) => item.name === 'The Messenger'));
-        const alphabeticDivCards = [...divCards];
-        setAutocompleteOptions(
-          alphabeticDivCards
-            .sort((a, b) =>
-              a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-            )
-            .map((item) => item.name)
-        );
+        setAutocompleteOptions(sortArrayAlphabetically(divCards))
         break;
       default:
         break;
@@ -157,28 +121,14 @@ function App() {
         shuffleArray(shuffledQuizItems);
         setQuizItems(shuffledQuizItems);
         setEndlessQuizType('unique');
-        const alphabeticUniques = [...uniques];
-        setAutocompleteOptions(
-          alphabeticUniques
-            .sort((a, b) =>
-              a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-            )
-            .map((item) => item.name)
-        );
+        setAutocompleteOptions(sortArrayAlphabetically(uniques));
         break;
       case 'divination':
         const shuffledDivCards = [...divCards];
         shuffleArray(shuffledDivCards);
         setQuizItems(shuffledDivCards);
         setEndlessQuizType('divination');
-        const alphabeticDivCards = [...divCards];
-        setAutocompleteOptions(
-          alphabeticDivCards
-            .sort((a, b) =>
-              a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-            )
-            .map((item) => item.name)
-        );
+        setAutocompleteOptions(sortArrayAlphabetically(divCards));
         break;
       default:
         break;

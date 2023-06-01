@@ -6125,36 +6125,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Thirst for Horrors",
-        "imgPath": "images\\shieldUnique\\ApJA6fdo.png",
-        "mods": [
-            {
-                "modStr": "9% increased Movement Speed+3 to Level of Socketed Curse Gems"
-            },
-            {
-                "modStr": "(30-50)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+(50-70) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+(40-50) to maximum Life"
-            },
-            {
-                "modStr": "+5% Chance to Block"
-            },
-            {
-                "modStr": "100% Chance to Cause Monster to Flee on Block"
-            },
-            {
-                "modStr": "1% of Damage Leeched as Life against Cursed Enemies"
-            },
-            {
-                "modStr": "Curse Skills have 100% increased Skill Effect Duration"
-            }
-        ]
-    },
-    {
         "name": "Voidhome",
         "imgPath": "images\\maceUnique\\CbgZIMO7.png",
         "mods": [
@@ -6869,21 +6839,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Circle of Fear",
-        "imgPath": "images\\ringUnique\\ixPpP8RM.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(20-30) to Dexterity"
-            },
-            {
-                "modStr": "Adds (20-25) to (26-35) Cold Damage"
-            },
-            {
-                "modStr": "+(20-30)% to Cold Resistance"
-            }
-        ]
-    },
-    {
         "name": "Ngamahu's Sign",
         "imgPath": "images\\ringUnique\\D3Z4Atkj.png",
         "mods": [
@@ -7306,36 +7261,6 @@ export const uniques = [
             },
             {
                 "modStr": "Bleeding Enemies you Kill with Hits Shatter"
-            }
-        ]
-    },
-    {
-        "name": "Garb of the Ephemeral",
-        "imgPath": "images\\bodyUnique\\CE8oBM0j.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>(180-230)% increased Energy Shield"
-            },
-            {
-                "modStr": "+600 Strength and Intelligence Requirement"
-            },
-            {
-                "modStr": "Gain a Divine Charge on Hit"
-            },
-            {
-                "modStr": "+10 to maximum Divine Charges"
-            },
-            {
-                "modStr": "You gain Divinity for 10 seconds on reaching maximum Divine Charges"
-            },
-            {
-                "modStr": "Lose all Divine Charges when you gain Divinity"
-            },
-            {
-                "modStr": "Nearby Allies' Action Speed cannot be modified to below base value"
-            },
-            {
-                "modStr": "Nearby Enemies cannot deal Critical Strikes"
             }
         ]
     },
@@ -8282,27 +8207,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Ngamahu Tiki",
-        "imgPath": "images\\amuletUnique\\LRSWoYuu.png",
-        "mods": [
-            {
-                "modStr": "Regenerate (2-4) Life per second(50-70)% increased Fire Damage"
-            },
-            {
-                "modStr": "+(150-250) to Evasion Rating while on Low Life"
-            },
-            {
-                "modStr": "+(30-50) to maximum Life"
-            },
-            {
-                "modStr": "+(20-30)% to Fire Resistance"
-            },
-            {
-                "modStr": "Regenerate 1% of Life per second while on Low Life"
-            }
-        ]
-    },
-    {
         "name": "Cowl of the Cryophile",
         "imgPath": "images\\helmetUnique\\nhR3lQ0V.png",
         "mods": [
@@ -8470,33 +8374,6 @@ export const uniques = [
             },
             {
                 "modStr": "Nearby Allies' Damage with Hits is Lucky"
-            }
-        ]
-    },
-    {
-        "name": "Hyrri's Demise",
-        "imgPath": "images\\quiverUnique\\mbY1XwG1.png",
-        "mods": [
-            {
-                "modStr": "Gain (6-8) Life per Enemy Hit with Attacks+(15-30) to all Attributes"
-            },
-            {
-                "modStr": "(7-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "Gain (2-3) Life per Enemy Hit with Attacks"
-            },
-            {
-                "modStr": "10% increased Area of Effect"
-            },
-            {
-                "modStr": "Adds 1 to 2 Cold Damage to Attacks per 10 Dexterity"
-            },
-            {
-                "modStr": "Adds 1 to 2 Fire Damage to Attacks per 10 Strength"
-            },
-            {
-                "modStr": "Adds 0 to 3 Lightning Damage to Attacks per 10 Intelligence"
             }
         ]
     },
@@ -8987,21 +8864,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Circle of Nostalgia",
-        "imgPath": "images\\ringUnique\\9Mfp6pFP.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(10-20) to all Attributes"
-            },
-            {
-                "modStr": "Adds (15-20) to (21-30) Chaos Damage"
-            },
-            {
-                "modStr": "+(17-23)% to Chaos Resistance"
-            }
-        ]
-    },
-    {
         "name": "Glorious Vanity",
         "imgPath": "images\\jewelTimelessUnique\\qDhghoiw.png",
         "mods": [
@@ -9389,30 +9251,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Glitterdisc",
-        "imgPath": "images\\shieldUnique\\luFPTR02.png",
-        "mods": [
-            {
-                "modStr": "+5% chance to Suppress Spell Damage(120-140)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "+(20-30) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+(30-50) to maximum Life"
-            },
-            {
-                "modStr": "10% increased Rarity of Items found"
-            },
-            {
-                "modStr": "25% chance to Avoid Fire Damage from Hits"
-            },
-            {
-                "modStr": "You always Ignite while Burning"
-            }
-        ]
-    },
-    {
         "name": "The Enmity Divine",
         "imgPath": "images\\staffUnique\\MXoCKAyu.png",
         "mods": [
@@ -9578,24 +9416,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Doomfletch's Prism",
-        "imgPath": "images\\bowUnique\\bxnn4UN6.png",
-        "mods": [
-            {
-                "modStr": "(20-24)% increased Elemental Damage with Attack SkillsAdds (12-16) to (20-24) Physical Damage"
-            },
-            {
-                "modStr": "(10-14)% increased Attack Speed"
-            },
-            {
-                "modStr": "60% increased Mana Regeneration Rate"
-            },
-            {
-                "modStr": "Gain 100% of Weapon Physical Damage as Extra Damage of each Element"
-            }
-        ]
-    },
-    {
         "name": "Speaker's Wreath",
         "imgPath": "images\\helmetUnique\\z7Akb77L.png",
         "mods": [
@@ -9661,21 +9481,6 @@ export const uniques = [
             },
             {
                 "modStr": "100% increased Effect of Onslaught on you"
-            }
-        ]
-    },
-    {
-        "name": "Circle of Regret",
-        "imgPath": "images\\ringUnique\\HPILTLVz.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(20-30) to Intelligence"
-            },
-            {
-                "modStr": "Adds 1 to (48-60) Lightning Damage"
-            },
-            {
-                "modStr": "+(20-30)% to Lightning Resistance"
             }
         ]
     },
@@ -10315,27 +10120,6 @@ export const uniques = [
             },
             {
                 "modStr": "Warcry Skills' Cooldown Time is 4 seconds"
-            }
-        ]
-    },
-    {
-        "name": "Cragfall",
-        "imgPath": "images\\quiverUnique\\uKX7NqsS.png",
-        "mods": [
-            {
-                "modStr": "1 to 4 Added Physical Damage with Bow Attacks(20-25)% reduced Enemy Stun Threshold"
-            },
-            {
-                "modStr": "25% reduced Projectile Speed"
-            },
-            {
-                "modStr": "(140-200)% increased Stun Duration on Enemies"
-            },
-            {
-                "modStr": "6 to 10 Added Physical Damage with Bow Attacks"
-            },
-            {
-                "modStr": "50% chance to double Stun Duration"
             }
         ]
     },
@@ -11843,30 +11627,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Frostferno",
-        "imgPath": "images\\helmetUnique\\0l3n4VuN.png",
-        "mods": [
-            {
-                "modStr": "+2 to Level of Socketed Fire Gems"
-            },
-            {
-                "modStr": "+2 to Level of Socketed Cold Gems"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 30 Cold to Fire"
-            },
-            {
-                "modStr": "(450-500)% increased Evasion Rating"
-            },
-            {
-                "modStr": "60% increased Mana Regeneration Rate"
-            },
-            {
-                "modStr": "+(20-30)% to Fire and Cold Resistances"
-            }
-        ]
-    },
-    {
         "name": "Victario's Charity",
         "imgPath": "images\\shieldUnique\\nkQEAaPM.png",
         "mods": [
@@ -12190,30 +11950,6 @@ export const uniques = [
             },
             {
                 "modStr": "15% increased Movement Speed while Shocked"
-            }
-        ]
-    },
-    {
-        "name": "Offering to the Serpent",
-        "imgPath": "images\\glovesUnique\\TUtKy5e9.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(15-25) to all Attributes"
-            },
-            {
-                "modStr": "(150-200)% increased Armour and Energy Shield"
-            },
-            {
-                "modStr": "50% reduced Maximum Recovery per Life Leech"
-            },
-            {
-                "modStr": "(6-10)% increased Attack and Cast Speed"
-            },
-            {
-                "modStr": "(15-25)% increased Damage while Leeching"
-            },
-            {
-                "modStr": "Life Leech effects are not removed when Unreserved Life is Filled"
             }
         ]
     },
@@ -12836,18 +12572,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Original Sin",
-        "imgPath": "images\\ringUnique\\yrVasOfe.png",
-        "mods": [
-            {
-                "modStr": "+(17-23)% to Chaos ResistanceAll Elemental Damage Converted to Chaos Damage"
-            },
-            {
-                "modStr": "Nearby Enemies' Chaos Resistance is 0"
-            }
-        ]
-    },
-    {
         "name": "Natural Hierarchy",
         "imgPath": "images\\amuletUnique\\XCIQ3qvX.png",
         "mods": [
@@ -13027,27 +12751,6 @@ export const uniques = [
             },
             {
                 "modStr": "Regenerate 1% of Life per second per 500 Maximum Energy Shield"
-            }
-        ]
-    },
-    {
-        "name": "The Oak",
-        "imgPath": "images\\shieldUnique\\V2ApWwRT.png",
-        "mods": [
-            {
-                "modStr": "+4% to all Elemental Resistances(80-120)% increased Armour and Energy Shield"
-            },
-            {
-                "modStr": "+(100-150) to maximum Life"
-            },
-            {
-                "modStr": "80% reduced Freeze Duration on you"
-            },
-            {
-                "modStr": "Regenerate 3% of Life per second"
-            },
-            {
-                "modStr": "Regenerate 3% of Life per second while on Low Life"
             }
         ]
     },
@@ -13790,33 +13493,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Atziri's Mirror",
-        "imgPath": "images\\shieldUnique\\7EKTndA7.png",
-        "mods": [
-            {
-                "modStr": "6% increased Movement Speed+(40-60) to Intelligence"
-            },
-            {
-                "modStr": "(180-200)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+(20-30)% to all Elemental Resistances"
-            },
-            {
-                "modStr": "50% reduced Duration of Curses on you"
-            },
-            {
-                "modStr": "Hex Reflection"
-            },
-            {
-                "modStr": "+10% Chance to Block Attack Damage while not Cursed"
-            },
-            {
-                "modStr": "+20% Chance to Block Spell Damage while Cursed"
-            }
-        ]
-    },
-    {
         "name": "Tidebreaker",
         "imgPath": "images\\maceUnique\\RLf0TJOO.png",
         "mods": [
@@ -14453,33 +14129,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Kaltensoul",
-        "imgPath": "images\\shieldUnique\\gHM6ILrQ.png",
-        "mods": [
-            {
-                "modStr": "6% increased Movement Speed(60-100)% increased Evasion Rating"
-            },
-            {
-                "modStr": "+5% to maximum Cold Resistance"
-            },
-            {
-                "modStr": "+50% to Cold Resistance"
-            },
-            {
-                "modStr": "Gain (10-15)% of Physical Damage as Extra Cold Damage"
-            },
-            {
-                "modStr": "Reflects (25-50) Cold Damage to Melee Attackers"
-            },
-            {
-                "modStr": "+5% Chance to Block"
-            },
-            {
-                "modStr": "20% of Fire Damage from Hits taken as Cold Damage"
-            }
-        ]
-    },
-    {
         "name": "Brinerot Whalers",
         "imgPath": "images\\bootsUnique\\mPXYlYO4.png",
         "mods": [
@@ -14855,33 +14504,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Silverbough",
-        "imgPath": "images\\bowUnique\\aAkg6yjg.png",
-        "mods": [
-            {
-                "modStr": "+1 to Level of Socketed Gems"
-            },
-            {
-                "modStr": "+1 to Level of Socketed Bow Gems"
-            },
-            {
-                "modStr": "(80-100)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (15-25) to (50-60) Physical Damage"
-            },
-            {
-                "modStr": "10% increased Attack Speed"
-            },
-            {
-                "modStr": "Gain 10 Mana per Enemy Killed"
-            },
-            {
-                "modStr": "+30 to Accuracy Rating"
-            }
-        ]
-    },
-    {
         "name": "Windripper",
         "imgPath": "images\\bowUnique\\qH5GHZyC.png",
         "mods": [
@@ -15044,33 +14666,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Deidbellow",
-        "imgPath": "images\\helmetUnique\\clmK6hrS.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to Strength"
-            },
-            {
-                "modStr": "+(20-30) to Dexterity"
-            },
-            {
-                "modStr": "Adds 10 to 20 Physical Damage to Attacks"
-            },
-            {
-                "modStr": "+(200-300) to Armour"
-            },
-            {
-                "modStr": "20% increased Melee Damage"
-            },
-            {
-                "modStr": "Cannot Leech when on Low Life"
-            },
-            {
-                "modStr": "If you've Warcried Recently, you and nearby allies have 20% increased Attack, Cast and Movement Speed"
-            }
-        ]
-    },
-    {
         "name": "Brightbeak",
         "imgPath": "images\\maceUnique\\tj2evgU1.png",
         "mods": [
@@ -15133,33 +14728,6 @@ export const uniques = [
             },
             {
                 "modStr": "Attacks Cost Life instead of Mana"
-            }
-        ]
-    },
-    {
-        "name": "The Iron Fortress",
-        "imgPath": "images\\bodyUnique\\fmPMe4aQ.png",
-        "mods": [
-            {
-                "modStr": "+1% Chance to Block Attack Damage per 50 Strength"
-            },
-            {
-                "modStr": "Chance to Block Spell Damage is Unlucky"
-            },
-            {
-                "modStr": "+(60-120) to Strength"
-            },
-            {
-                "modStr": "(80-100)% increased Armour"
-            },
-            {
-                "modStr": "10% reduced Movement Speed"
-            },
-            {
-                "modStr": "Strength's Damage Bonus instead grants 3% increased Melee"
-            },
-            {
-                "modStr": "Physical Damage per 10 Strength"
             }
         ]
     },
@@ -15274,27 +14842,6 @@ export const uniques = [
             },
             {
                 "modStr": "10% chance to Blind Enemies on hit"
-            }
-        ]
-    },
-    {
-        "name": "Sandstorm Visage",
-        "imgPath": "images\\helmetUnique\\PyfEvYDS.png",
-        "mods": [
-            {
-                "modStr": "(8-10)% increased Cast Speed"
-            },
-            {
-                "modStr": "(200-250)% increased Energy Shield"
-            },
-            {
-                "modStr": "Ignore Stuns while Casting"
-            },
-            {
-                "modStr": "Base Spell Critical Strike Chance of Spells is equal to that of Main Hand Weapon"
-            },
-            {
-                "modStr": "Cannot deal Critical Strikes with Attacks"
             }
         ]
     },
@@ -15692,30 +15239,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "The Tactician",
-        "imgPath": "images\\beltUnique\\X1nClZF7.png",
-        "mods": [
-            {
-                "modStr": "(20-30)% increased Stun Duration on Enemies+(40-50) to Strength"
-            },
-            {
-                "modStr": "+(40-50) to Intelligence"
-            },
-            {
-                "modStr": "(25-40)% increased Global Physical Damage"
-            },
-            {
-                "modStr": "50% increased Flask Charges gained"
-            },
-            {
-                "modStr": "+(20-25)% to all Elemental Resistances while you have at least 200 Strength"
-            },
-            {
-                "modStr": "(50-60)% increased Critical Strike Chance while you have at least 200 Intelligence"
-            }
-        ]
-    },
-    {
         "name": "Stormcharger",
         "imgPath": "images\\bootsUnique\\4FRq4CVk.png",
         "mods": [
@@ -15733,51 +15256,6 @@ export const uniques = [
             },
             {
                 "modStr": "(1-50)% increased Effect of Lightning Ailments"
-            }
-        ]
-    },
-    {
-        "name": "Circle of Guilt",
-        "imgPath": "images\\ringUnique\\tluNtMk3.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(10-20) to all Attributes"
-            },
-            {
-                "modStr": "Adds (8-10) to (13-15) Physical Damage"
-            },
-            {
-                "modStr": "+(350-400) to Armour"
-            }
-        ]
-    },
-    {
-        "name": "Corona Solaris",
-        "imgPath": "images\\wandUnique\\bo5pA6l1.png",
-        "mods": [
-            {
-                "modStr": "Adds (4-8) to (10-12) Cold Damage to Spells and AttacksTriggers Level 20 Blinding Aura when Equipped"
-            },
-            {
-                "modStr": "Adds (30-45) to (60-80) Fire Damage"
-            },
-            {
-                "modStr": "(6-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(27-33)% to Global Critical Strike Multiplier"
-            },
-            {
-                "modStr": "20% increased Light Radius"
-            },
-            {
-                "modStr": "(120-140)% increased Critical Strike Chance against Blinded Enemies"
-            },
-            {
-                "modStr": "Increases and Reductions to Light Radius also apply to Accuracy"
-            },
-            {
-                "modStr": "Adds (145-157) to (196-210) Fire Damage to Hits with this Weapon against Blinded Enemies"
             }
         ]
     },
@@ -16079,33 +15557,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "The Effigon",
-        "imgPath": "images\\amuletUnique\\bbxBrkYJ.png",
-        "mods": [
-            {
-                "modStr": "(12-20)% increased Rarity of Items found+25 to Dexterity"
-            },
-            {
-                "modStr": "Adds (18-24) to (32-40) Fire Damage to Attacks"
-            },
-            {
-                "modStr": "+(100-150) to Accuracy Rating"
-            },
-            {
-                "modStr": "+(100-150) to Evasion Rating"
-            },
-            {
-                "modStr": "+(20-30)% to Fire Resistance"
-            },
-            {
-                "modStr": "Your Hits can't be Evaded by Blinded Enemies"
-            },
-            {
-                "modStr": "Damage Penetrates 10% Fire Resistance against Blinded Enemies"
-            }
-        ]
-    },
-    {
         "name": "Thrillsteel",
         "imgPath": "images\\helmetUnique\\3L2C4PZY.png",
         "mods": [
@@ -16315,27 +15766,6 @@ export const uniques = [
             },
             {
                 "modStr": "30% increased Projectile Damage"
-            }
-        ]
-    },
-    {
-        "name": "Amplification Rod",
-        "imgPath": "images\\wandUnique\\s4LTXVBa.png",
-        "mods": [
-            {
-                "modStr": "(15-19)% increased Spell Damage+2 to Level of Socketed Gems"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 10 Intensify"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 10 Spell Echo"
-            },
-            {
-                "modStr": "Socketed Gems are Supported by Level 10 Controlled Destruction"
-            },
-            {
-                "modStr": "+(10-30) to Intelligence"
             }
         ]
     },
@@ -16745,60 +16175,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Timetwist",
-        "imgPath": "images\\ringUnique\\SWOaFeFR.png",
-        "mods": [
-            {
-                "modStr": "+(15-25) to maximum Energy Shield(10-15)% increased Attack Speed"
-            },
-            {
-                "modStr": "(10-15)% increased Cast Speed"
-            },
-            {
-                "modStr": "+(40-45) to maximum Energy Shield"
-            },
-            {
-                "modStr": "15% increased Mana Regeneration Rate"
-            },
-            {
-                "modStr": "(-20-20)% increased Skill Effect Duration"
-            },
-            {
-                "modStr": "Unaffected by Temporal Chains"
-            }
-        ]
-    },
-    {
-        "name": "Whakatutuki o Matua",
-        "imgPath": "images\\shieldUnique\\9LVRb8TR.png",
-        "mods": [
-            {
-                "modStr": "(5-10)% increased Spell Damage+3 to Level of Socketed Minion Gems"
-            },
-            {
-                "modStr": "+(40-80) to maximum Energy Shield"
-            },
-            {
-                "modStr": "(40-80)% increased Energy Shield"
-            },
-            {
-                "modStr": "+(15-25) to maximum Mana"
-            },
-            {
-                "modStr": "20% increased effect of Non-Curse Auras from your Skills on your Minions"
-            },
-            {
-                "modStr": "20% increased effect of Non-Curse Auras from your Skills"
-            },
-            {
-                "modStr": "Spreads Tar when you Block"
-            },
-            {
-                "modStr": "If you have Blocked Recently, you and nearby Allies Regenerate 5% of Life per second"
-            }
-        ]
-    },
-    {
         "name": "Talisman of the Victor",
         "imgPath": "images\\amuletUnique\\fBqDMrq5.png",
         "mods": [
@@ -16903,27 +16279,6 @@ export const uniques = [
             },
             {
                 "modStr": "(15-20)% increased Effect of Non-Damaging Ailments"
-            }
-        ]
-    },
-    {
-        "name": "Storm's Gift",
-        "imgPath": "images\\glovesUnique\\kH9pgnzQ.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>(20-30)% increased Damage over Time"
-            },
-            {
-                "modStr": "(250-300)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "+(20-30)% to Lightning Resistance"
-            },
-            {
-                "modStr": "Enemies you kill are Shocked"
-            },
-            {
-                "modStr": "Shocks you inflict spread to other Enemies within a Radius of 15"
             }
         ]
     },
@@ -17147,27 +16502,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Izaro's Dilemma",
-        "imgPath": "images\\clawUnique\\8o8K3Qe8.png",
-        "mods": [
-            {
-                "modStr": "Grants 46 Life per Enemy Hit(80-100)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds 20 to 50 Physical Damage"
-            },
-            {
-                "modStr": "(10-15)% increased Attack Speed"
-            },
-            {
-                "modStr": "+(300-400) to Accuracy Rating"
-            },
-            {
-                "modStr": "100% increased Global Physical Damage while Frozen"
-            }
-        ]
-    },
-    {
         "name": "The Tempest's Liberation",
         "imgPath": "images\\helmetUnique\\eVYPGhAN.png",
         "mods": [
@@ -17251,27 +16585,6 @@ export const uniques = [
             },
             {
                 "modStr": "25% reduced Bleeding Duration"
-            }
-        ]
-    },
-    {
-        "name": "Death's Opus",
-        "imgPath": "images\\bowUnique\\NXXdKKt0.png",
-        "mods": [
-            {
-                "modStr": "(30-50)% increased Critical Strike Chance(90-105)% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (6-12) to (20-25) Physical Damage"
-            },
-            {
-                "modStr": "10% increased Attack Speed"
-            },
-            {
-                "modStr": "+50% to Global Critical Strike Multiplier"
-            },
-            {
-                "modStr": "Bow Attacks fire 3 additional Arrows"
             }
         ]
     },
@@ -17437,30 +16750,6 @@ export const uniques = [
             },
             {
                 "modStr": "You take 50% reduced Extra Damage from Critical Strikes while you have no Power Charges"
-            }
-        ]
-    },
-    {
-        "name": "Karui Charge",
-        "imgPath": "images\\amuletUnique\\0H2uqYWC.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to Dexterity+(20-30) to Strength"
-            },
-            {
-                "modStr": "(5-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "+100 to Accuracy Rating"
-            },
-            {
-                "modStr": "30% increased Projectile Speed"
-            },
-            {
-                "modStr": "10% increased Movement Speed"
-            },
-            {
-                "modStr": "30% increased Projectile Damage"
             }
         ]
     },
@@ -18545,24 +17834,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "The Tempest",
-        "imgPath": "images\\bowUnique\\3id69YvC.png",
-        "mods": [
-            {
-                "modStr": "No Physical Damage"
-            },
-            {
-                "modStr": "100% increased Lightning Damage"
-            },
-            {
-                "modStr": "Adds 1 to 85 Lightning Damage"
-            },
-            {
-                "modStr": "(36-50)% increased Attack Speed"
-            }
-        ]
-    },
-    {
         "name": "Tremor Rod",
         "imgPath": "images\\staffUnique\\xJziFxeR.png",
         "mods": [
@@ -18622,21 +17893,6 @@ export const uniques = [
             },
             {
                 "modStr": "Iron Will"
-            }
-        ]
-    },
-    {
-        "name": "Nebulis",
-        "imgPath": "images\\sceptreUnique\\QTZoz9vc.png",
-        "mods": [
-            {
-                "modStr": "<One to three random synthesis implicit modifiers>(15-20)% increased Cast Speed"
-            },
-            {
-                "modStr": "(15-20)% increased Cold Damage per 1% Cold Resistance above 75%"
-            },
-            {
-                "modStr": "(15-20)% increased Lightning Damage per 1% Lightning Resistance above 75%"
             }
         ]
     },
@@ -19103,36 +18359,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Geofri's Legacy",
-        "imgPath": "images\\helmetUnique\\1bFjBDc4.png",
-        "mods": [
-            {
-                "modStr": "+1 to Level of Socketed Gems"
-            },
-            {
-                "modStr": "(120-150)% increased Armour and Energy Shield"
-            },
-            {
-                "modStr": "+(20-30)% to Fire Resistance"
-            },
-            {
-                "modStr": "+(20-30)% to Cold Resistance"
-            },
-            {
-                "modStr": "+(20-30)% to Lightning Resistance"
-            },
-            {
-                "modStr": "+(20-30)% to Chaos Resistance"
-            },
-            {
-                "modStr": "+1 to maximum number of Summoned Holy Relics"
-            },
-            {
-                "modStr": "Summoned Holy Relics have (25-20)% reduced Cooldown Recovery Rate"
-            }
-        ]
-    },
-    {
         "name": "Lion's Roar",
         "imgPath": "images\\flaskUnique\\EoCj8lyG.png",
         "mods": [
@@ -19147,30 +18373,6 @@ export const uniques = [
             },
             {
                 "modStr": "(7-10)% more Melee Physical Damage during effect"
-            }
-        ]
-    },
-    {
-        "name": "The Nomad",
-        "imgPath": "images\\beltUnique\\nzoRwgvs.png",
-        "mods": [
-            {
-                "modStr": "(20-30)% increased Stun Duration on Enemies+(40-50) to Strength"
-            },
-            {
-                "modStr": "+(40-50) to Dexterity"
-            },
-            {
-                "modStr": "(25-40)% increased Global Physical Damage"
-            },
-            {
-                "modStr": "50% increased Flask Charges gained"
-            },
-            {
-                "modStr": "+(20-25)% to all Elemental Resistances while you have at least 200 Strength"
-            },
-            {
-                "modStr": "(40-50)% increased Projectile Attack Damage while you have at least 200 Dexterity"
             }
         ]
     },
@@ -19478,33 +18680,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Voidheart",
-        "imgPath": "images\\ringUnique\\cuktEtHg.png",
-        "mods": [
-            {
-                "modStr": "Adds 1 to 4 Physical Damage to Attacks5% increased Global Physical Damage"
-            },
-            {
-                "modStr": "Adds (10-15) to (20-25) Chaos Damage to Attacks"
-            },
-            {
-                "modStr": "+(20-30) to maximum Life"
-            },
-            {
-                "modStr": "Regenerate (10-15) Life per second"
-            },
-            {
-                "modStr": "10% chance to Cause Monsters to Flee"
-            },
-            {
-                "modStr": "Melee Attacks have (30-50)% chance to cause Bleeding"
-            },
-            {
-                "modStr": "Melee Attacks have (20-40)% chance to Poison on Hit"
-            }
-        ]
-    },
-    {
         "name": "Shiversting",
         "imgPath": "images\\swordUnique\\2eIgauhJ.png",
         "mods": [
@@ -19543,42 +18718,6 @@ export const uniques = [
             },
             {
                 "modStr": "Adds (1-3) to (55-62) Lightning Damage while you have Avian's Might"
-            }
-        ]
-    },
-    {
-        "name": "The Goddess Unleashed",
-        "imgPath": "images\\swordUnique\\uPvPm4bZ.png",
-        "mods": [
-            {
-                "modStr": "+475 to Accuracy RatingUses both hand slots"
-            },
-            {
-                "modStr": "Item has 6 Sockets and is fully linked (Hidden)"
-            },
-            {
-                "modStr": "Adds (3-6) to (33-66) Physical Damage"
-            },
-            {
-                "modStr": "(44-66)% increased Critical Strike Chance"
-            },
-            {
-                "modStr": "33% increased Ignite Duration on Enemies"
-            },
-            {
-                "modStr": "Gain (66-99)% of Sword Physical Damage as Extra Fire Damage"
-            },
-            {
-                "modStr": "Gain Her Blessing for 3 seconds when you Ignite an Enemy"
-            },
-            {
-                "modStr": "33% chance to Blind nearby Enemies when gaining Her Blessing"
-            },
-            {
-                "modStr": "100% chance to Avoid being Ignited, Chilled or Frozen with Her Blessing"
-            },
-            {
-                "modStr": "20% increased Attack and Movement Speed with Her Blessing"
             }
         ]
     },
@@ -19693,27 +18832,6 @@ export const uniques = [
             },
             {
                 "modStr": "You and nearby allies gain 50% increased Damage"
-            }
-        ]
-    },
-    {
-        "name": "Martyr's Crown",
-        "imgPath": "images\\helmetUnique\\5dnrDuNS.png",
-        "mods": [
-            {
-                "modStr": "+(150-225) to maximum Energy Shield"
-            },
-            {
-                "modStr": "+(110-130) to maximum Energy Shield"
-            },
-            {
-                "modStr": "Reflects 5 Physical Damage to Melee Attackers"
-            },
-            {
-                "modStr": "+25 Physical Damage taken from Attack Hits"
-            },
-            {
-                "modStr": "Pain Attunement"
             }
         ]
     },
@@ -20285,24 +19403,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Eternal Damnation",
-        "imgPath": "images\\amuletUnique\\LaUK4Gkt.png",
-        "mods": [
-            {
-                "modStr": "+(16-24) to Strength and Intelligence+(40-70) to maximum Mana"
-            },
-            {
-                "modStr": "+(-13-13)% to Chaos Resistance"
-            },
-            {
-                "modStr": "-5% to all maximum Resistances"
-            },
-            {
-                "modStr": "Gain additional Elemental Damage Reduction equal to half your Chaos Resistance"
-            }
-        ]
-    },
-    {
         "name": "Agnerod North",
         "imgPath": "images\\staffUnique\\8FZnC6Aa.png",
         "mods": [
@@ -20477,33 +19577,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Malachai's Awakening",
-        "imgPath": "images\\helmetUnique\\dRAxOcV7.png",
-        "mods": [
-            {
-                "modStr": "+20 to Strength"
-            },
-            {
-                "modStr": "(15-30)% increased Spell Damage"
-            },
-            {
-                "modStr": "+10% to all Elemental Resistances"
-            },
-            {
-                "modStr": "Adds (42-54) to (78-88) Cold Damage to Spells while no Life is Reserved"
-            },
-            {
-                "modStr": "Adds (54-64) to (96-107) Fire Damage to Spells while no Life is Reserved"
-            },
-            {
-                "modStr": "Adds (5-14) to (160-173) Lightning Damage to Spells while no Life is Reserved"
-            },
-            {
-                "modStr": "Blood Magic"
-            }
-        ]
-    },
-    {
         "name": "Immutable Force",
         "imgPath": "images\\jewelDropUnique\\xV1l4CVE.png",
         "mods": [
@@ -20641,33 +19714,6 @@ export const uniques = [
             },
             {
                 "modStr": "15% reduced Global Accuracy Rating"
-            }
-        ]
-    },
-    {
-        "name": "Dreadbeak",
-        "imgPath": "images\\swordUnique\\aTiaJQMz.png",
-        "mods": [
-            {
-                "modStr": "40% increased Global Accuracy Rating100% increased Damage when on Low Life"
-            },
-            {
-                "modStr": "50% increased Physical Damage"
-            },
-            {
-                "modStr": "Adds (83-91) to (123-130) Physical Damage"
-            },
-            {
-                "modStr": "10% increased Attack Speed"
-            },
-            {
-                "modStr": "+(20-30) to maximum Life"
-            },
-            {
-                "modStr": "Grants 2 Life per Enemy Hit"
-            },
-            {
-                "modStr": "You have Onslaught while on Low Life"
             }
         ]
     },
@@ -20842,30 +19888,6 @@ export const uniques = [
             },
             {
                 "modStr": "Brand Skills have (50-100)% increased Duration"
-            }
-        ]
-    },
-    {
-        "name": "Winterweave",
-        "imgPath": "images\\ringUnique\\Bs2ZWdLw.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to maximum LifeAdds (12-15) to (25-30) Fire Damage to Attacks"
-            },
-            {
-                "modStr": "Adds (12-15) to (25-30) Cold Damage to Attacks"
-            },
-            {
-                "modStr": "+(20-40) to maximum Life"
-            },
-            {
-                "modStr": "+(25-30)% to Cold Resistance"
-            },
-            {
-                "modStr": "10% increased Movement Speed while Ignited"
-            },
-            {
-                "modStr": "The Effect of Chill on you is reversed"
             }
         ]
     },
@@ -21737,27 +20759,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Kaom's Way",
-        "imgPath": "images\\ringUnique\\9LBnbezb.png",
-        "mods": [
-            {
-                "modStr": "+(20-30) to maximum Life+(10-20) to Strength"
-            },
-            {
-                "modStr": "Regenerate 0.2% of Life per second per Endurance Charge"
-            },
-            {
-                "modStr": "Gain (2-4) Life per Enemy Hit with Attacks"
-            },
-            {
-                "modStr": "+1 to Maximum Endurance Charges"
-            },
-            {
-                "modStr": "2% increased Area of Effect per Endurance Charge"
-            }
-        ]
-    },
-    {
         "name": "Bloodbond",
         "imgPath": "images\\bodyUnique\\QViSM15U.png",
         "mods": [
@@ -21778,30 +20779,6 @@ export const uniques = [
             },
             {
                 "modStr": "Minions have +(12-15)% chance to Suppress Spell Damage"
-            }
-        ]
-    },
-    {
-        "name": "Mask of the Tribunal",
-        "imgPath": "images\\helmetUnique\\Nn5W5xLQ.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(25-30) to all Attributes"
-            },
-            {
-                "modStr": "(150-200)% increased Armour and Energy Shield"
-            },
-            {
-                "modStr": "Nearby Allies have 1% Chance to Block Attack Damage per 100 Strength you have"
-            },
-            {
-                "modStr": "Nearby Allies have +(6-8)% to Critical Strike Multiplier per 100 Dexterity you have"
-            },
-            {
-                "modStr": "Nearby Allies have (2-4)% increased Cast Speed per 100 Intelligence you have"
-            },
-            {
-                "modStr": "2% increased Mana Reservation Efficiency of Skills per 250 total Attributes"
             }
         ]
     },
@@ -23975,27 +22952,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Ezomyte Hold",
-        "imgPath": "images\\helmetUnique\\K1oWEYKZ.png",
-        "mods": [
-            {
-                "modStr": "20% increased Global Physical Damage"
-            },
-            {
-                "modStr": "+(75-100) to Armour"
-            },
-            {
-                "modStr": "+(25-50) to maximum Life"
-            },
-            {
-                "modStr": "Cannot Evade Enemy Attacks"
-            },
-            {
-                "modStr": "Cannot be Stunned"
-            }
-        ]
-    },
-    {
         "name": "Crown of Eyes",
         "imgPath": "images\\helmetUnique\\IG1fkEaW.png",
         "mods": [
@@ -25207,33 +24163,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Perepiteia",
-        "imgPath": "images\\shieldUnique\\ks9yYVOS.png",
-        "mods": [
-            {
-                "modStr": "<One to three random synthesis implicit modifiers>+(1-3) to Level of Socketed Lightning Gems"
-            },
-            {
-                "modStr": "Triggers Level 20 Lightning Aegis when Equipped"
-            },
-            {
-                "modStr": "(1-20)% increased Attack Speed"
-            },
-            {
-                "modStr": "(1-20)% increased Cast Speed"
-            },
-            {
-                "modStr": "(300-400)% increased Evasion and Energy Shield"
-            },
-            {
-                "modStr": "+(1-75) to maximum Mana"
-            },
-            {
-                "modStr": "(1-20)% increased Movement Speed"
-            }
-        ]
-    },
-    {
         "name": "Breath of the Council",
         "imgPath": "images\\sceptreUnique\\RM4qk8Kk.png",
         "mods": [
@@ -25488,57 +24417,6 @@ export const uniques = [
             },
             {
                 "modStr": "Critical Strike Chance is increased by Overcapped Lightning Resistance"
-            }
-        ]
-    },
-    {
-        "name": "Asenath's Chant",
-        "imgPath": "images\\helmetUnique\\KbX7zY46.png",
-        "mods": [
-            {
-                "modStr": "Trigger a Socketed Spell when you Attack with a Bow, with a 0.3 second Cooldown"
-            },
-            {
-                "modStr": "(10-15)% increased Attack Speed"
-            },
-            {
-                "modStr": "(10-15)% increased Cast Speed"
-            },
-            {
-                "modStr": "+(100-120) to maximum Energy Shield"
-            },
-            {
-                "modStr": "(30-40)% increased Stun and Block Recovery"
-            },
-            {
-                "modStr": "30% increased Mana Regeneration Rate"
-            },
-            {
-                "modStr": "5% increased Movement Speed"
-            }
-        ]
-    },
-    {
-        "name": "The Signal Fire",
-        "imgPath": "images\\quiverUnique\\k6pNosrL.png",
-        "mods": [
-            {
-                "modStr": "Adds (12-15) to (24-27) Fire Damage to Attacks10% increased Attack Speed"
-            },
-            {
-                "modStr": "+(80-100) to Evasion Rating"
-            },
-            {
-                "modStr": "+(10-30) to maximum Mana"
-            },
-            {
-                "modStr": "50% of Physical Damage Converted to Fire Damage"
-            },
-            {
-                "modStr": "5 to 10 Added Fire Damage with Bow Attacks"
-            },
-            {
-                "modStr": "Gain (25-35)% of Physical Attack Damage as Extra Fire Damage"
             }
         ]
     },
@@ -26302,30 +25180,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "The Peregrine",
-        "imgPath": "images\\helmetUnique\\5Y8LpGzL.png",
-        "mods": [
-            {
-                "modStr": "+500 to Accuracy Rating"
-            },
-            {
-                "modStr": "(40-60)% increased Armour and Evasion"
-            },
-            {
-                "modStr": "(20-30)% increased Rarity of Items found"
-            },
-            {
-                "modStr": "+30% to Lightning Resistance"
-            },
-            {
-                "modStr": "0.4% of Attack Damage Leeched as Mana"
-            },
-            {
-                "modStr": "10% increased Movement Speed"
-            }
-        ]
-    },
-    {
         "name": "Atziri's Foible",
         "imgPath": "images\\amuletUnique\\9J8TVuqe.png",
         "mods": [
@@ -26761,21 +25615,6 @@ export const uniques = [
         ]
     },
     {
-        "name": "Circle of Anguish",
-        "imgPath": "images\\ringUnique\\JebDHXEF.png",
-        "mods": [
-            {
-                "modStr": "<One to three random Synthesis implicit modifiers>+(20-30) to Strength"
-            },
-            {
-                "modStr": "Adds (20-25) to (26-35) Fire Damage"
-            },
-            {
-                "modStr": "+(20-30)% to Fire Resistance"
-            }
-        ]
-    },
-    {
         "name": "Shavronne's Pace",
         "imgPath": "images\\bootsUnique\\qTIobHXr.png",
         "mods": [
@@ -26883,21 +25722,6 @@ export const uniques = [
             },
             {
                 "modStr": "You can catch Exotic Fish"
-            }
-        ]
-    },
-    {
-        "name": "Broadstroke",
-        "imgPath": "images\\quiverUnique\\rthluP3g.png",
-        "mods": [
-            {
-                "modStr": "Adds 1 to 4 Physical Damage to Attacks30% increased Global Physical Damage"
-            },
-            {
-                "modStr": "(10-15)% reduced Enemy Stun Threshold"
-            },
-            {
-                "modStr": "(20-30)% increased Stun Duration on Enemies"
             }
         ]
     },
@@ -27123,33 +25947,6 @@ export const uniques = [
             },
             {
                 "modStr": "Permanently Intimidate Enemies on Block"
-            }
-        ]
-    },
-    {
-        "name": "Spine of the First Claimant",
-        "imgPath": "images\\sceptreUnique\\MIi7zQ8X.png",
-        "mods": [
-            {
-                "modStr": "14% increased Elemental Damage(100-140)% increased Physical Damage"
-            },
-            {
-                "modStr": "40% increased Damage with Hits against Frozen Enemies"
-            },
-            {
-                "modStr": "+(25-35)% to Cold Damage over Time Multiplier"
-            },
-            {
-                "modStr": "(30-50)% increased Cold Damage"
-            },
-            {
-                "modStr": "(5-10)% increased Attack Speed"
-            },
-            {
-                "modStr": "(4-8)% increased Cast Speed"
-            },
-            {
-                "modStr": "5% chance to Freeze"
             }
         ]
     },
