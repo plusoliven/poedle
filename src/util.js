@@ -26,3 +26,15 @@ export const sortArrayAlphabetically = (array) => {
         a.name.toLowerCase().localeCompare(b.name.toLowerCase())).map((item) => item.name)
 
 }
+
+export const getTimeUntilReset = () => {
+    const now = new Date();
+    const tomorrow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+
+    const diff = tomorrow - now;
+
+    const hours = Math.floor(diff / 1000 / 60 / 60);
+    const minutes = Math.floor(diff / 1000 / 60) % 60;
+
+    return `${hours} hours, ${minutes} minutes`;
+}

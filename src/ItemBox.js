@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
     Grid,
-    Typography,
+    Typography, Container
 } from '@mui/material';
 
 const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
@@ -17,26 +17,29 @@ export default function ItemBox(props) {
             flexDirection='column'
             alignItems='center'
             marginBottom={2}
+            container
         >
-            <Grid height={30}>
+            <Grid
+                item
+                minHeight={40}
+                xs={12}>
                 <Typography
                     variant='h6'
                     component='div'
                     fontWeight='bold'
-                    marginBottom={2}
+                    marginBottom={0}
                 >
                     {showName ? name : ''}
                 </Typography>
             </Grid>
             <Grid
-                width='400'
-                minWidth='400'
-                height='300'
+                item
+                xs={12}
                 minHeight='300'
                 component='img'
                 src={domain + img}
                 marginBottom={2}
-                borderRadius='12px'
+                borderRadius={4}
                 style={{
                     backgroundSize: 'contain',
                     backgroundPosition: 'center',
@@ -44,7 +47,8 @@ export default function ItemBox(props) {
                 }}
             />
             <Grid
-                width={390}
+                item
+                xs={12}
                 padding={2}
                 minHeight={150}
                 style={{ backgroundColor: '#232935', borderRadius: '12px' }}
@@ -59,7 +63,7 @@ export default function ItemBox(props) {
                         );
                     })}
             </Grid>
-            <Grid minHeight={50} marginTop={2} width={390}>
+            <Grid item xs={12} minHeight={50} marginTop={2}>
                 {showFlavorText && flavorText && (
                     <Typography
                         variant='body1'

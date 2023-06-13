@@ -7,33 +7,12 @@ body {
   color: #FFFFFF
 }
 
-.styledButton {
-  font-weight: bold;
-  text-transform: capitalize;
-  background-color: #c47237;
 
-  width: 100%;
-}
-
-.grayedOut {
+.hpImgGrayed {
   filter: grayscale(100%);
   opacity: 0.7;
 }
 
-.normal {
+.hpImgNormal {
   filter: grayscale(0%);
-}
-
-.modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content {
-  background-color: #343c49;
-  border-radius: 16px;
-  color: white;
-  padding: 20px;
-  outline: none;
 }

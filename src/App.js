@@ -8,18 +8,21 @@ import {
   TextField,
   Typography,
   Autocomplete,
+  Divider,
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import ItemBox from './ItemBox';
-import { getDayDiff, getItemForToday, shuffleArray, sortArrayAlphabetically } from './util';
+import { getDayDiff, getItemForToday, getTimeUntilReset, shuffleArray, sortArrayAlphabetically } from './util';
 
 import { divCards } from './data.mjs';
 import { uniques } from './data.mjs';
+import QuizSelection from './QuizSelection';
 
 const domain = window.location.hostname.includes('localhost') ? 'http://localhost:3000/poedle/' : 'https://plusoliven.github.io/poedle/'
 const version = '0.3'
+
 
 
 const theme = createTheme({
@@ -41,48 +44,53 @@ const theme = createTheme({
   },
 });
 
+const styles = {
+  poedleHeader: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    top: '-15px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    bgcolor: 'darkgray',
+    borderRadius: '8px',
+    marginTop: '1%',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+    color: 'white',
+    cursor: 'pointer',
+  }
+}
+
 function App() {
+  const [mode, setMode] = useState('menu');
+  const [quizType, setQuizType] = useState('');
+
   const [quizItems, setQuizItems] = useState([]);
   const [quizItem, setQuizItem] = useState({});
+
   const [autocompleteOptions, setAutocompleteOptions] = useState([]);
-  const [mode, setMode] = useState('menu');
+
   const [guesses, setGuesses] = useState(0);
   const [guess, setGuess] = useState('');
-  const [gameResult, setGameResult] = useState('');
-  const [quizType, setQuizType] = useState('');
+  const [correctGuesses, setCorrectGuesses] = useState(0);
+
   const [revealItem, setRevealItem] = useState({
     flavorText: false,
     mods: false,
     name: false,
   });
+
+  const [gameResult, setGameResult] = useState('');
+
   const [shareText, setShareText] = useState('');
-  const [isEndlessQuiz, setIsEndlessQuiz] = useState(false);
-  const [endlessQuizType, setEndlessQuizType] = useState('');
-  const [correctGuesses, setCorrectGuesses] = useState(0);
-
-
-  const handleDailyQuizChange = (dailyQuiz) => {
-    switch (dailyQuiz) {
-      case 'dailyUnique':
-        setQuizType('dailyUnique');
-        setQuizItem(getItemForToday(uniques));
-        setAutocompleteOptions(sortArrayAlphabetically(uniques))
-        break;
-      case 'dailyDivination':
-        setQuizType('dailyDivination');
-        setQuizItem(getItemForToday(divCards));
-        setAutocompleteOptions(sortArrayAlphabetically(divCards))
-        break;
-      default:
-        break;
-    }
-  };
 
 
   const handleGuess = (guess) => {
     if (guess === '') return;
 
-    if (isEndlessQuiz && guess === quizItems[correctGuesses].name) {
+    if (quizType.includes('Endless') && guess === quizItems[correctGuesses].name) {
       setCorrectGuesses(correctGuesses + 1);
       return;
     }
@@ -91,7 +99,7 @@ function App() {
       setGameResult('won');
       setRevealItem({ name: true, mods: true, flavorText: true })
 
-      setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item' : 'Daily divination card'}\n${'🟥 '.repeat(guesses)}🟩\n${domain}`)
+      updateShareText();
 
       return;
     }
@@ -104,32 +112,73 @@ function App() {
     if (guesses === 2) {
       setGameResult('lost');
       setRevealItem({ name: true, mods: true, flavorText: true })
-
-      if (isEndlessQuiz) setShareText(`Poedle endless ${endlessQuizType} quiz\n${correctGuesses} correct guesses!\n${domain}`)
-      else setShareText(`Poedle #${getDayDiff()} - ${quizType === 'dailyUnique' ? 'Daily unique item' : 'Daily divination card'}\n${'🟥 '.repeat(guesses + 1)}\n${domain}`)
-      return;
+      updateShareText();
     }
-
-
-
   }
 
-  const handleChangeEndlessQuiz = (type) => {
-    setIsEndlessQuiz(true);
-    switch (type) {
+  const updateShareText = () => {
+    let shareTextBuild = `Poedle #${getDayDiff()} - `
+    switch (quizType) {
+      case 'uniqueDaily':
+        shareTextBuild += `Daily unique quiz\n${'🟥 '.repeat(guesses + 1)}\n${domain}`
+        break;
+      case 'divinationDaily':
+        shareTextBuild += `Daily divination card quiz\n${'🟥 '.repeat(guesses + 1)}\n${domain}`
+        break;
+      case 'uniqueEndless':
+        shareTextBuild += `Endless unique quiz\n${correctGuesses} correct guesses!\n${domain}`
+        break;
+      case 'divinationEndless':
+        shareTextBuild += `Endless divination card quiz\n${correctGuesses} correct guesses!\n${domain}`
+        break;
+      default:
+        break;
+    }
+
+    setShareText(shareTextBuild);
+  }
+
+  const handleChangeEndlessQuiz = (quiz) => {
+    let quizArray;
+    let autocompleteArray;
+
+    switch (quiz) {
       case 'unique':
-        const shuffledQuizItems = [...uniques];
-        shuffleArray(shuffledQuizItems);
-        setQuizItems(shuffledQuizItems);
-        setEndlessQuizType('unique');
-        setAutocompleteOptions(sortArrayAlphabetically(uniques));
+        quizArray = [...uniques];
+        autocompleteArray = [...uniques];
         break;
       case 'divination':
-        const shuffledDivCards = [...divCards];
-        shuffleArray(shuffledDivCards);
-        setQuizItems(shuffledDivCards);
-        setEndlessQuizType('divination');
+        quizArray = [...divCards];
+        autocompleteArray = [...divCards];
+        break;
+      default:
+        break;
+    }
+
+    shuffleArray(quizArray);
+    setQuizItems(quizArray);
+    setAutocompleteOptions(sortArrayAlphabetically(autocompleteArray));
+  }
+
+
+  const handleChangeQuiz = (quiz) => {
+    setQuizType(quiz);
+    setMode('quiz');
+
+    switch (quiz) {
+      case 'uniqueDaily':
+        setQuizItem(getItemForToday(uniques));
+        setAutocompleteOptions(sortArrayAlphabetically(uniques))
+        break;
+      case 'divinationDaily':
+        setQuizItem(getItemForToday(divCards));
         setAutocompleteOptions(sortArrayAlphabetically(divCards));
+        break;
+      case 'uniqueEndless':
+        handleChangeEndlessQuiz('unique');
+        break;
+      case 'divinationEndless':
+        handleChangeEndlessQuiz('divination');
         break;
       default:
         break;
@@ -143,9 +192,7 @@ function App() {
     setGameResult('');
     setRevealItem({ name: false, mods: false, flavorText: false })
     setShareText('');
-    setIsEndlessQuiz(false);
     setCorrectGuesses(0);
-    setEndlessQuizType('');
   }
 
 
@@ -153,22 +200,7 @@ function App() {
     <ThemeProvider theme={theme}>
 
       <Grid
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          position: 'absolute',
-          top: '-15px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          bgcolor: 'darkgray',
-          borderRadius: '8px',
-          marginTop: '1%',
-          paddingLeft: '10px',
-          paddingRight: '10px',
-          color: 'white',
-          cursor: 'pointer',
-        }}
+        sx={styles.poedleHeader}
         onClick={() => resetState()}
       >
         <Typography variant='h4'>Poedle</Typography>
@@ -176,98 +208,24 @@ function App() {
 
       <Container maxWidth='sm'>
         <Grid
-          marginTop='3%'
+          marginTop={3}
           display='flex'
           flexDirection='column'
-          alignItems='center'
-          borderRadius='12px'
-          // height='85vh'
+          borderRadius={3}
           p={4}
           bgcolor='primary.main'
+          container
         >
           {mode === 'menu' && (
-            <Grid marginTop={2} container spacing={3} justifyContent='center'>
-              <Grid item xs={12}>
-                <Button
-                  sx={{
-                    textTransform: 'capitalize',
-                    fontWeight: 'bold',
-                    fontSize: '15px',
-                    bgcolor: 'button.main',
-                    ':hover': { bgcolor: 'button.hover' },
-                  }}
-                  variant='contained'
-                  className='styledButton'
-                  onClick={() => {
-                    setMode('quiz');
-                    handleDailyQuizChange('dailyUnique');
-                  }}
-                >
-                  Daily unique item
-                </Button>
-              </Grid>
-              <Grid item xs={12}>
-                <Button
-                  sx={{
-                    textTransform: 'capitalize',
-                    fontWeight: 'bold',
-                    fontSize: '15px',
-                    bgcolor: 'button.main',
-                    ':hover': { bgcolor: 'button.hover' },
-                  }}
-                  variant='contained'
-                  className='styledButton'
-                  onClick={() => {
-                    setMode('quiz');
-                    handleDailyQuizChange('dailyDivination');
-                  }}
-                >
-                  Daily Divination Card
-                </Button>
-              </Grid>
-              <Grid item xs={6}>
-                <Button
-                  sx={{
-                    textTransform: 'capitalize',
-                    fontWeight: 'bold',
-                    fontSize: '15px',
-                    bgcolor: 'button.main',
-                    ':hover': { bgcolor: 'button.hover' },
-                  }}
-                  variant='contained'
-                  className='styledButton'
-                  onClick={(() => {
-                    setMode('quiz');
-                    handleChangeEndlessQuiz('unique');
-                  })}
-                >
-                  Endless unique quiz
-                </Button>
-              </Grid>
-              <Grid item xs={6}>
-                <Button
-                  sx={{
-                    textTransform: 'capitalize',
-                    fontWeight: 'bold',
-                    fontSize: '15px',
-                    bgcolor: 'button.main',
-                    ':hover': { bgcolor: 'button.hover' },
-                  }}
-                  variant='contained'
-                  className='styledButton'
-                  onClick={(() => {
-                    setMode('quiz');
-                    handleChangeEndlessQuiz('divination');
-                  })}
-                >
-                  Endless divination quiz
-                </Button>
-              </Grid>
-            </Grid>
+            <>
+              <Typography variant='h5' textAlign='center'>Day {getDayDiff()}</Typography>
+              <QuizSelection handleChangeQuiz={handleChangeQuiz} />
+              <Typography marginTop={5} textAlign='center' >{getTimeUntilReset()} until reset</Typography>
+            </>
           )}
           {mode === 'quiz' && (
             <>
-              {isEndlessQuiz ? (
+              {quizType.includes('Endless') ? (
                 <ItemBox
                   name={quizItems[correctGuesses].name}
                   img={quizItems[correctGuesses].imgPath}
@@ -283,12 +241,15 @@ function App() {
                   img={quizItem.imgPath}
                   mods={quizItem.mods}
                   flavorText={quizItem.flavorText}
-                  showName={revealItem.name}
-                  showMods={revealItem.mods}
-                  showFlavorText={revealItem.flavorText}
+                  showName={true}
+                  showMods={true}
+                  showFlavorText={true}
+                // showName={revealItem.name}
+                // showMods={revealItem.mods}
+                // showFlavorText={revealItem.flavorText}
                 />
               )}
-              <Grid display='flex'>
+              {/* <Grid display='flex'>
                 <Autocomplete
                   disabled={gameResult !== ''}
                   renderInput={(params) => (
@@ -338,19 +299,23 @@ function App() {
                     handleGuess(guess);
                   }}
                 >Submit</Button>
-              </Grid>
-              {gameResult === '' ? (
+              </Grid> */}
+              {/* {gameResult === '' ? (
                 <Grid display='flex' marginTop={3}>
-                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`} height={60} className={guesses >= 3 ? 'grayedOut' : 'normal'} />
-                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`} height={60} className={guesses >= 2 ? 'grayedOut' : 'normal'} />
-                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`} height={60} className={guesses >= 1 ? 'grayedOut' : 'normal'} />
-                  {isEndlessQuiz && (
+                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`}
+                    height={60} className={guesses >= 3 ? 'hpImgGrayed' : 'hpImgNormal'} />
+                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`}
+                    height={60} className={guesses >= 2 ? 'hpImgGrayed' : 'hpImgNormal'} />
+                  <Grid component='img' src={`${domain}images/Exalted_Orb_inventory_icon.png`}
+                    height={60} className={guesses >= 1 ? 'hpImgGrayed' : 'hpImgNormal'} />
+                  {quizType.includes('Endless') && (
                     <Typography variant='h7' fontWeight='bold'>{correctGuesses + ' correct guesses'}</Typography>
                   )}
                 </Grid>
               ) : (
-                <Grid marginTop={3}>
+                <Grid marginTop={3} textAlign='center'>
                   <Typography variant='h4' fontWeight='bold'>{gameResult === 'won' ? 'You won!' : 'You lost :('}</Typography>
+                  <br></br>
                   <Grid
                     sx={{
                       display: 'flex',
@@ -376,7 +341,7 @@ function App() {
                   </Grid>
 
                 </Grid>
-              )}
+              )} */}
             </>
           )}
         </Grid>
