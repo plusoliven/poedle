@@ -1,5 +1,9 @@
 # https://plusoliven.github.io/poedle/
 
+Path of Exile daily quiz.
+Currently has unique item, and divination card quiz (both supporting endless mode)
+Inspired by wordle, guessthegame etc.
+
 # Todo
 - ~~Allow submit on enter~~
 - Add cookie that saves progress for daily quizzes
